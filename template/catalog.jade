@@ -1,0 +1,17 @@
+include _includes/mixins
+doctype html
+html(lang='en')
+    - var title = 'Турбіна - каталог';
+    include _includes/head
+    body
+        include _includes/header/header
+
+        .wrapper
+            include _includes/catalog/catalog
+        include _includes/footer/footer
+
+        /// modals start
+        /// modals end
+
+        // java script links
+        include _includes/js-links

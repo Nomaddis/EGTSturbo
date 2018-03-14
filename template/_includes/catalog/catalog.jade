@@ -1,0 +1,515 @@
+main.main
+    section.main_content
+        .container
+            .catalog
+                .catalog_controls
+                    button.btn.catalog__filter_btn(type="button" data-toggle="collapse" data-target="#collapseSidebar" aria-expanded="false" aria-controls="collapseSidebar")
+                        i.fa.fa-filter(aria-hidden="true")
+                    .catalog_sort
+                        .catalog_sort__select
+                            form
+                                .form__select
+                                    select(name="select")
+                                        option(value="Default sort") Default sort
+                                        option(value="Sort by date sort") Sort by date sort
+
+                        .catalog_sort__select
+                            form
+                                .form__select
+                                    select(name="select")
+                                        option(value="Default sort") Default sort
+                                        option(value="Sort by date sort") Sort by date sort
+                                        option(value="sort by name sort") sort by name sort
+                    .catalog_view
+                        button.catalog_view__btn.btn.active(id="catalog_view_block_btn")
+                            i(class="fa fa-th" aria-hidden="true")
+                        button.catalog_view__btn.btn(id="catalog_view_list_btn")
+                            i(class="fa fa-th-list" aria-hidden="true")
+                .row
+                    .col-md-6
+                        .collapse(id="collapseSidebar" class="in")
+                            .catalog_sidebar.well
+                                .catalog_categories
+                                    .catalog_categories_title
+                                        span Categories
+                                    // bootstrap collapse Sidebar_Categories
+                                    #accordion.panel-group(role='tablist', aria-multiselectable='true')
+                                        .panel.panel-default
+                                            #headingOne.panel-heading(role='tab')
+                                                a.catalog__categories_link.panel-title(href="#") Category #2
+                                                    a.catalog__sub_categories.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseOne', aria-expanded='false', aria-controls='collapseOne')
+                                                        button.catalog__sub_categories_btn
+                                                .line
+                                            #collapseOne.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingOne')
+                                                .panel-body
+                                                    ul
+                                                        li
+                                                            a(href="#") subcat 1
+                                                        li
+                                                            a(href="#") subcat 2
+                                                        li
+                                                            a(href="#") subcat 3
+                                                        li
+                                                            ul
+                                                                li
+                                                                    a(href="#") subcat 1
+                                                                li
+                                                                    a(href="#") subcat 2
+                                                                li
+                                                                    a(href="#") subcat 3
+                                                                li
+                                                                    a(href="#") subcat 4
+                                                    .line
+                                        .panel.panel-default
+                                            #headingTwo.panel-heading(role='tab')
+                                                a.catalog__categories_link.panel-title(href="#") Category #2
+                                                    a.catalog__sub_categories.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                                                        button.catalog__sub_categories_btn
+                                                .line
+                                            #collapseTwo.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingTwo')
+                                                .panel-body
+                                                    ul
+                                                        li
+                                                            a(href="#") subcat 1
+                                                        li
+                                                            a(href="#") subcat 2
+                                                        li
+                                                            a(href="#") subcat 3
+                                                        li
+                                                            a(href="#") subcat 4
+                                                    .line
+                                        .panel.panel-default
+                                            #headingThree.panel-heading(role='tab')
+                                                a.catalog__categories_link.panel-title(href="#") Category #3
+                                                    a.catalog__sub_categories.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                                                        button.catalog__sub_categories_btn
+                                                .line
+                                            #collapseThree.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree')
+                                                .panel-body
+                                                    ul
+                                                        li
+                                                            a(href="#") subcat 1
+                                                        li
+                                                            a(href="#") subcat 2
+                                                        li
+                                                            a(href="#") subcat 3
+                                                        li
+                                                            a(href="#") subcat 4
+                                                    .line
+                                        .panel.panel-default
+                                            #headingFour.panel-heading(role='tab')
+                                                a.catalog__categories_link.panel-title(href="#") Category #4
+                                                    a.catalog__sub_categories.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
+                                                        button.catalog__sub_categories_btn
+                                                .line
+                                            #collapseFour.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree')
+                                                .panel-body
+                                                    ul
+                                                        li
+                                                            a(href="#") subcat 1
+                                                        li
+                                                            a(href="#") subcat 2
+                                                        li
+                                                            a(href="#") subcat 3
+                                                        li
+                                                            a(href="#") subcat 4
+                                                    .line
+                                        .panel.panel-default
+                                            #headingFifth.panel-heading(role='tab')
+                                                a.catalog__categories_link.panel-title(href="#") Category #5
+                                                    a.catalog__sub_categories.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseFifth', aria-expanded='false', aria-controls='collapseFifth')
+                                                        button.catalog__sub_categories_btn
+                                                .line
+                                            #collapseFifth.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree')
+                                                .panel-body
+                                                    ul
+                                                        li
+                                                            a(href="#") subcat 1
+                                                        li
+                                                            a(href="#") subcat 2
+                                                        li
+                                                            a(href="#") subcat 3
+                                                        li
+                                                            a(href="#") subcat 4
+                                                    .line
+                                        .panel.panel-default
+                                            #headingSixth.panel-heading(role='tab')
+                                                a.catalog__categories_link.panel-title(href="#") Category #6
+                                                    a.catalog__sub_categories.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseSixth', aria-expanded='false', aria-controls='collapseSixth')
+                                                        button.catalog__sub_categories_btn
+                                            #collapseSixth.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree')
+                                                .panel-body
+                                                    ul
+                                                        li
+                                                            a(href="#") subcat 1
+                                                        li
+                                                            a(href="#") subcat 2
+                                                        li
+                                                            a(href="#") subcat 3
+                                                        li
+                                                            a(href="#") subcat 4
+                                                    .line
+
+                                .catalog__filter
+                                    .catalog__filter__price
+                                        .catalog__filter_title
+                                            span Filter by Price
+                                        .catalog__filter_body
+                                            .price_slider
+                                            form.catalog__filter_body-price
+                                                input(type="text" id="price_min" value="0")
+                                                span -
+                                                input(type="text" id="price_max" value="10000")
+                                                span uah
+                                                button(type="submit").btn.btn_filter_price
+                                                    span FILTER
+                                    .catalog__filter__brand
+                                        .catalog__filter_title
+                                            span Filter by brand
+                                        .catalog__filter_body
+                                            button.btn.brand_btn
+                                                span Brandnew
+                                            button.btn.brand_btn
+                                                span Bran
+                                            button.btn.brand_btn
+                                                span Ajax
+                                            button.btn.brand_btn
+                                                span Аква
+                                            button.btn.brand_btn
+                                                span Brd
+                                            button.btn.brand_btn
+                                                span BRAND
+
+                    .col-md-18
+                        .catalog_list.clearfix
+                            .catalog__item_wrap
+                                .catalog__item-inner
+                                    .catalog__item
+                                        .catalog__item__img
+                                            a(href="/www/product_details.html").img-cont
+                                                img(src="img/product1.jpg")
+                                            .catalog__item__specials
+                                                .catalog__item__new
+                                                    span Новинка
+                                                .catalog__item__sale
+                                                    span Суперціна
+                                                .catalog__item__hot
+                                                    span Топ продажів
+                                            .catalog__item__stars
+                                                a(href="/www/product_details.html#Reviews").catalog__item__stars_link
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    span відгуки (100)
+                                        .catalog__item__inf
+                                            .catalog__item__title
+                                                a(href="/www/product_details.html" title="Product title").catalog__item__title_link Product Title Product Title Product Title
+                                            .catalog__item__price
+                                                .catalog__item__price__old
+                                                    span 6156
+                                                    span грн
+                                                .catalog__item__price__new
+                                                    span 5000
+                                                    span грн
+                                            .catalog__item__controls
+                                                button.catalog__item__controls_cart.catalog__item__controls__btn
+                                                    i(class="fa fa-cart-arrow-down shopping_cart" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                                button.catalog__item__controls_favorite.catalog__item__controls__btn
+                                                    i(class="far fa-heart" aria-hidden="true")
+                                                    i(class="fas fa-heart" aria-hidden="true")
+                                                button.catalog__item__controls_compare.catalog__item__controls__btn
+                                                    i(class="fa fa-balance-scale" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                    .catalog__item__description
+                                        a.catalog__item__category.link.link--dark(href="#") Category
+                                        br
+                                        span.catalog__item__brand Brand:
+                                        span.catalog__item__brand_name  Apple
+                                        p.catalog__item__propperty Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.
+
+                            .catalog__item_wrap
+                                .catalog__item-inner
+                                    .catalog__item
+                                        .catalog__item__img
+                                            a(href="/www/product_details.html").img-cont
+                                                img(src="img/product1.jpg")
+                                            .catalog__item__specials
+                                            .catalog__item__stars
+                                                a(href="").catalog__item__stars_link
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    span відгуки (100)
+                                        .catalog__item__inf
+                                            .catalog__item__title
+                                                a(href="/www/product_details.html" title="Product title").catalog__item__title_link Product Title Product Title
+                                            .catalog__item__price
+                                                .catalog__item__price__old
+                                                    span 6156
+                                                    span грн
+                                                .catalog__item__price__new
+                                                    span 5000
+                                                    span грн
+                                            .catalog__item__controls
+                                                button.catalog__item__controls_cart.catalog__item__controls__btn
+                                                    i(class="fa fa-cart-arrow-down shopping_cart" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                                button.catalog__item__controls_favorite.catalog__item__controls__btn
+                                                    i(class="far fa-heart" aria-hidden="true")
+                                                    i(class="fas fa-heart" aria-hidden="true")
+                                                button.catalog__item__controls_compare.catalog__item__controls__btn
+                                                    i(class="fa fa-balance-scale" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                    .catalog__item__description
+                                        a.catalog__item__category.link.link--dark(href="#") Category
+                                        br
+                                        span.catalog__item__brand Brand:
+                                        span.catalog__item__brand_name  Apple
+                                        p.catalog__item__propperty Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.
+
+                            .catalog__item_wrap
+                                .catalog__item-inner
+                                    .catalog__item
+                                        .catalog__item__img
+                                            a(href="/www/product_details.html").img-cont
+                                                img(src="img/product1.jpg")
+                                            .catalog__item__specials
+
+                                                .catalog__item__hot
+                                                    span Топ продажів
+                                            .catalog__item__stars
+                                                a(href="").catalog__item__stars_link
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    span відгуки (100)
+                                        .catalog__item__inf
+                                            .catalog__item__title
+                                                a(href="/www/product_details.html" title="Product title").catalog__item__title_link Product Title Product Title
+                                            .catalog__item__price
+                                                .catalog__item__price__old
+                                                    span 6156
+                                                    span грн
+                                                .catalog__item__price__new
+                                                    span 5000
+                                                    span грн
+                                            .catalog__item__controls
+                                                button.catalog__item__controls_cart.catalog__item__controls__btn
+                                                    i(class="fa fa-cart-arrow-down shopping_cart" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                                button.catalog__item__controls_favorite.catalog__item__controls__btn
+                                                    i(class="far fa-heart" aria-hidden="true")
+                                                    i(class="fas fa-heart" aria-hidden="true")
+                                                button.catalog__item__controls_compare.catalog__item__controls__btn
+                                                    i(class="fa fa-balance-scale" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                    .catalog__item__description
+                                        a.catalog__item__category.link.link--dark(href="#") Category
+                                        br
+                                        span.catalog__item__brand Brand:
+                                        span.catalog__item__brand_name  Apple
+                                        p.catalog__item__propperty Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.
+
+                            .catalog__item_wrap
+                                .catalog__item-inner
+                                    .catalog__item
+                                        .catalog__item__img
+                                            a(href="/www/product_details.html").img-cont
+                                                img(src="img/product1.jpg")
+                                            .catalog__item__specials
+                                                .catalog__item__new
+                                                    span Новинка
+
+                                            .catalog__item__stars
+                                                a(href="").catalog__item__stars_link
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    span відгуки (100)
+                                        .catalog__item__inf
+                                            .catalog__item__title
+                                                a(href="/www/product_details.html" title="Product title").catalog__item__title_link Product Title Product Title
+                                            .catalog__item__price
+                                                .catalog__item__price__old
+                                                    span 6156
+                                                    span грн
+                                                .catalog__item__price__new
+                                                    span 5000
+                                                    span грн
+                                            .catalog__item__controls
+                                                button.catalog__item__controls_cart.catalog__item__controls__btn
+                                                    i(class="fa fa-cart-arrow-down shopping_cart" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                                button.catalog__item__controls_favorite.catalog__item__controls__btn
+                                                    i(class="far fa-heart" aria-hidden="true")
+                                                    i(class="fas fa-heart" aria-hidden="true")
+                                                button.catalog__item__controls_compare.catalog__item__controls__btn
+                                                    i(class="fa fa-balance-scale" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                    .catalog__item__description
+                                        a.catalog__item__category.link.link--dark(href="#") Category
+                                        br
+                                        span.catalog__item__brand Brand:
+                                        span.catalog__item__brand_name  Apple
+                                        p.catalog__item__propperty Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.
+
+                            .catalog__item_wrap
+                                .catalog__item-inner
+                                    .catalog__item
+                                        .catalog__item__img
+                                            a(href="/www/product_details.html").img-cont
+                                                img(src="img/product1.jpg")
+                                            .catalog__item__specials
+                                                .catalog__item__new
+                                                    span Новинка
+
+                                            .catalog__item__stars
+                                                a(href="/www/product_details.html").catalog__item__stars_link
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    span відгуки (100)
+                                        .catalog__item__inf
+                                            .catalog__item__title
+                                                a(href="" title="Product title").catalog__item__title_link Product Title Product Title
+                                            .catalog__item__price
+                                                .catalog__item__price__old
+                                                    span 6156
+                                                    span грн
+                                                .catalog__item__price__new
+                                                    span 5000
+                                                    span грн
+                                            .catalog__item__controls
+                                                button.catalog__item__controls_cart.catalog__item__controls__btn
+                                                    i(class="fa fa-cart-arrow-down shopping_cart" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                                button.catalog__item__controls_favorite.catalog__item__controls__btn
+                                                    i(class="far fa-heart" aria-hidden="true")
+                                                    i(class="fas fa-heart" aria-hidden="true")
+                                                button.catalog__item__controls_compare.catalog__item__controls__btn
+                                                    i(class="fa fa-balance-scale" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                    .catalog__item__description
+                                        a.catalog__item__category.link.link--dark(href="#") Category
+                                        br
+                                        span.catalog__item__brand Brand:
+                                        span.catalog__item__brand_name  Apple
+                                        p.catalog__item__propperty Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.
+
+                            .catalog__item_wrap
+                                .catalog__item-inner
+                                    .catalog__item
+                                        .catalog__item__img
+                                            a(href="/www/product_details.html").img-cont
+                                                img(src="img/product1.jpg")
+                                            .catalog__item__specials
+
+                                                .catalog__item__sale
+                                                    span Суперціна
+                                            .catalog__item__stars
+                                                a(href="").catalog__item__stars_link
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    span відгуки (100)
+                                        .catalog__item__inf
+                                            .catalog__item__title
+                                                a(href="" title="Product title").catalog__item__title_link Product Title Product Title
+                                            .catalog__item__price
+                                                .catalog__item__price__old
+                                                    span 6156
+                                                    span грн
+                                                .catalog__item__price__new
+                                                    span 5000
+                                                    span грн
+                                            .catalog__item__controls
+                                                button.catalog__item__controls_cart.catalog__item__controls__btn
+                                                    i(class="fa fa-cart-arrow-down shopping_cart" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                                button.catalog__item__controls_favorite.catalog__item__controls__btn
+                                                    i(class="far fa-heart" aria-hidden="true")
+                                                    i(class="fas fa-heart" aria-hidden="true")
+                                                button.catalog__item__controls_compare.catalog__item__controls__btn
+                                                    i(class="fa fa-balance-scale" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                    .catalog__item__description
+                                        a.catalog__item__category.link.link--dark(href="#") Category
+                                        br
+                                        span.catalog__item__brand Brand:
+                                        span.catalog__item__brand_name  Apple
+                                        p.catalog__item__propperty Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.
+
+                            .catalog__item_wrap
+                                .catalog__item-inner
+                                    .catalog__item
+                                        .catalog__item__img
+                                            a(href="/www/product_details.html").img-cont
+                                                img(src="img/product1.jpg")
+                                            .catalog__item__specials
+                                            .catalog__item__stars
+                                                a(href="").catalog__item__stars_link
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    span відгуки (100)
+                                        .catalog__item__inf
+                                            .catalog__item__title
+                                                a(href="/www/product_details.html" title="Product title").catalog__item__title_link Product Title Product Title
+                                            .catalog__item__price
+                                                .catalog__item__price__old
+                                                    span 6156
+                                                    span грн
+                                                .catalog__item__price__new
+                                                    span 5000
+                                                    span грн
+                                            .catalog__item__controls
+                                                button.catalog__item__controls_cart.catalog__item__controls__btn
+                                                    i(class="fa fa-cart-arrow-down shopping_cart" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                                button.catalog__item__controls_favorite.catalog__item__controls__btn
+                                                    i(class="far fa-heart" aria-hidden="true")
+                                                    i(class="fas fa-heart" aria-hidden="true")
+                                                button.catalog__item__controls_compare.catalog__item__controls__btn
+                                                    i(class="fa fa-balance-scale" aria-hidden="true")
+                                                    i(class="fa fa-check-circle icon_check" aria-hidden="true")
+                                    .catalog__item__description
+                                        a.catalog__item__category.link.link--dark(href="#") Category
+                                        br
+                                        span.catalog__item__brand Brand:
+                                        span.catalog__item__brand_name  Apple
+                                        p.catalog__item__propperty Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.
+
+                        .catalog_pagination
+                            nav(aria-label='Page navigation')
+                                ul.pagination
+                                    li
+                                        a(href='#', aria-label='Previous')
+                                            span(aria-hidden='true') «
+                                    li.active
+                                        a(href='#') 1
+                                    li
+                                        a(href='#') 2
+                                    li
+                                        a(href='#') 3
+                                    li
+                                        a(href='#') 4
+                                    li
+                                        a(href='#') 5
+                                    li
+                                        a(href='#', aria-label='Next')
+                                            span(aria-hidden='true') »

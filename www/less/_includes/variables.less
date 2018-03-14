@@ -1,0 +1,143 @@
+﻿.font-face (@fontname, @fontfile, @fontstyle: normal, @fontweight: normal) {
+		@font-face {
+				font-family: @fontname;
+				src: url('../fonts/@{fontfile}.eot');
+				src: url('../fonts/@{fontfile}.eot?#iefix') format('embedded-opentype'),
+						 url('../fonts/@{fontfile}.woff') format('woff'),
+						 url('../fonts/@{fontfile}.ttf') format('truetype'),
+						 url('../fonts/@{fontfile}.svg#@{fontname}') format('svg');
+				font-weight: @fontweight;
+				font-style: @fontstyle;
+		}
+}
+
+/* colors variables start */
+// bg colors
+@black: #252525;
+@lighten-black: #363636;
+@red: #fa5d3b;
+
+@orange-sale: orange;
+@blue-new: blue;
+
+
+
+// typografy colors
+@gray: #616161;
+@gray-category-title: #f5f5f5;
+@gray-catalog-cat: #fafafa;
+@gray-bold: #3c3d41;
+@blue: #118dc9;
+@tBlue: #5c8dde;
+
+@btn_white: #fff;
+@green: #00c278;
+@btn_blue: #118dc9;
+
+@link-color: @blue;
+@link-color-hover: @tBlue;
+
+@text-color: @gray;
+
+/* colors variables end */
+
+
+
+/* bg variables start */
+// @d-gray: #222222;
+// @red: #ec1c23;
+// bg variables end
+
+@grid-columns: 24;
+@font-family-sans-serif: 'Roboto', sans-serif;
+@border-radius-base: 0;
+@font-size-base: 14px;
+@gray-base: #5d5d5d;
+@body-bg: #ffffff;
+@grid-gutter-width: 30px;
+// @grid-float-breakpoint: 0;
+@container-large-desktop: 1210px;
+//@container-desktop: 970px;
+//@container-tablet: 750px;
+
+//@screen-lg: (@container-large-desktop + 20); 
+//@screen-md: (@container-desktop + 10);
+
+// @screen-sm-max: 991px;
+@screen-sm: 768px;
+@screen-xx-max: 480px;
+
+// Typography
+
+
+@font-size-h1: 44px;
+@font-size-h2: 36px;
+@font-size-h3: 30px;
+@font-size-h4: 24px;
+@font-size-h5: 18px;
+@font-size-h6: 16px;
+h1,.h1{
+	margin-top:  0;
+	margin-bottom: 0;
+}
+h2,.h2{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h3, .h3{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h4, .h4{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h5, .h5{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h6, .h6{
+	// font-weight: 400;
+}
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
+}
+
+
+// link
+a{
+	text-decoration: underline;
+}
+// @link-hover-decoration: none;
+// @link-color: #49CBAA;
+// @link-hover-color: @link-color;
+
+
+// modals
+@modal-title-padding: 30px;
+@modal-inner-padding: 30px;
+@modal-content-bg: #f9f9f9;
+@modal-content-border-color: #f9f9f9;
+@modal-md: 449px;
+// @modal-sm: 313px;
+// @modal-header-border-color: transparent;
+// @modal-footer-border-color: transparent;
+// @modal-inner-padding: 26px;
+// @modal-backdrop-bg: #000;
+// @modal-content-bg: #f5f5f5;
+// @modal-title-padding: 0;
+
+// form
+// @input-color: @gray-base;
+// @input-border: #c6c6c6;
+// @input-border-focus: (@red);
+// @input-color-placeholder: #c6c6c6;
+// @input-height-base: 35px;
+// @form-group-margin-bottom: 0;
+
+// btn
+// @btn-font-weight: bold;
+// @btn-default-color: @gray-base;
+// @btn-default-bg: #c6c6c6;
+// @btn-default-border: @btn-default-bg;
+// @btn-border-radius-large: 0;
+

@@ -1,0 +1,3 @@
+npm install --save-dev gulp gulp-concat gulp-plumber gulp-autoprefixer gulp-imagemin imagemin-jpegtran imagemin-pngquant imagemin-optipng gulp-less path gulp-uglifycss gulp-uglify
+npm install --save-dev  gulp.spritesmith gulp-util gulp-html2jade gulp-jade-inheritance gulp-jade gulp-changed gulp-cached gulp-if gulp-filter 
+npm install --save-dev gulp-connect gulp-less-sourcemap gulp-htmlhint less-plugin-autoprefix gulp-css-url-adjuster node-notifier gulp-useref gulp-image-optimization vinyl-ftp

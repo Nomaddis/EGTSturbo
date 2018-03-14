@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        meta#myViewport(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+        meta(name='author', content='')
+        title Testonic
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext', rel='stylesheet', type='text/css')
+        //link(href='http://markup.canvart.com.ua/swipeks-pages/style.css', rel='stylesheet', type='text/css')
+    body
+        .project-pages-block
+            .prjct-pgs__header
+                .container
+                    img(src="img/ico-original/logo.png", alt="")
+            .prjct-pgs__body
+                .container
+                    .prjct-pgs__ttl
+                        .prjct-pgs__group.row
+                            .col-xs-24.col-md-12.firstColumm
+                                a(href='main.html') main
+                            .col-xs-24.col-md-12.secondColumm
+                                a(href='catalog.html') catalog
+                            .col-xs-24.col-md-12.thhirdColumm
+                                a(href='product_details.html') product_details
+            .prjct-pgs__footer
+                .container
+
+        script(src='https://code.jquery.com/jquery-1.12.4.min.js')
+        script.
+            var linksArray = [
+                'main',
+                'catalog',
+                'product_details'
+            ]

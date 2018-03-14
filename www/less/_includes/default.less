@@ -1,0 +1,198 @@
+/*========================================
+=            bootstrap chenge            =
+========================================*/
+	*{
+		outline: none !important;
+	}
+	body{
+	}
+	/*----------  if modal chenges  ----------*/
+	/*----------  row start  ----------*/
+	.row{
+		&.row_no-pad{
+			margin-left: 0;
+			margin-right: 0;
+			> div{
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		&.row_inline{
+			text-align: center;
+			[class*="col-"]{
+				float: none;
+				display: inline-block;
+				margin-left: -2px;
+				margin-right: -2px;
+				text-align: left;
+				vertical-align: top;
+
+			}
+		}
+		&.row_md{
+			margin-left: -10px;
+			margin-right: -10px;
+			[class*="col-"]{
+				padding: 0 10px;
+			}
+		}
+		&.row_xs{
+			margin-left: -5px;
+			margin-right: -5px;
+			[class*="col-"]{
+				padding: 0 5px;
+			}
+		}
+	}
+	@media (max-width: @screen-md-max) {}
+	@media (max-width: @screen-sm-max) {}
+	@media (max-width: @screen-xs-max) {}
+	@media (max-width: @screen-xx-max) {
+		.col-xx-12{
+			width: 100%;
+		}
+	}
+/*----------  row end  ----------*/
+/*=====  End of bootstrap chenge  ======*/
+
+/*===========================
+=            btn            =
+===========================*/
+
+	.btn{
+		// DEFAULT
+		display: inline-flex;
+		align-items: center;
+		background: #fff;
+		padding: 15px;
+		margin: 0 !important;
+		text-shadow: none;
+		color: #333;
+		font-size: 22px;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		user-select: none;
+		border: none;
+		outline: none;
+		transition: 0.3s all ease;
+		&:hover{
+			background-color: @red;
+			border-color: #C0C0C1;
+			text-decoration: none;
+		}
+		&:active{
+			text-decoration: none;
+		}
+		// SIZE
+		&.btn_md{
+			// height: 33.3px;
+			// height: 35px;
+			// border-radius: 4px;
+			// line-height: 33.3px;
+			// padding: 0 29px;
+
+		}
+		&.btn_full{
+			width: 100%;
+		}
+		// COLORS
+		&.btn_red{
+			background-color: #e57372;
+			border-color: #e57372;
+			color: #fff;
+			.no-touchevents &:hover{
+				background-color: (#e57373 - 20%);
+				border-color: (#e57373 - 20%);
+			}
+			.touchevents &:active{
+				background-color: (#e57373 - 20%);
+				border-color: (#e57373 - 20%);
+			}
+			&:focus{
+				text-decoration: none;
+			}
+			&:disabled{
+				background-color: #9297a3;
+				border-color: #9297a3;
+				color: #fff;
+			}
+		}
+	}
+
+/*=====  End of btn  ======*/
+
+/*====================================
+=            ul templates            =
+====================================*/
+	.list{
+		padding-left: 0;
+		list-style-type: none;
+		margin-bottom: 0;
+	}
+
+	.list_float{
+		margin-bottom: 0;
+		list-style-type: none;
+		padding-left: 0;
+		> li{
+			float: left;
+		}
+		.after()
+	}
+	.list_inline-block{
+		margin-bottom: 0;
+		list-style-type: none;
+		padding-left: 0;
+		> li{
+			float: inline-block;
+		}
+	}
+/*=====  End of ul templates  ======*/
+
+/*===============================
+=            HELPERS            =
+===============================*/
+	.after(){
+		&:after{
+			content: '';
+			display: table;
+			height: 0;
+			visibility: hidden;
+			clear: both;
+		}
+	}
+
+	.clearfix {
+		zoom:1; /* For IE 6/7 (trigger hasLayout) */
+		
+		&:before,
+		&:after {
+			content:"";
+			display:table;
+		}
+		&:after {
+			clear:both;
+		}
+	}
+/*=====  End of HELPERS  ======*/
+/*=====  Start of object-fit  ======*/
+.img-cont {
+	position: relative;
+	height: 100%;
+	z-index: 10;
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	&.compat-object-fit {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		img {
+			display: none;
+		}
+	}
+}
+/*=====  END of object-fit  ======*/

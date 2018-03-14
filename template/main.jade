@@ -1,0 +1,19 @@
+include _includes/mixins
+doctype html
+html(lang='en')
+	- var title = 'title';
+	include _includes/head
+	body
+		include _includes/header/header
+
+		.wrapper
+			include _includes/landing/landing
+
+		include _includes/footer/footer
+
+		// modals start
+		include _includes/modal/modal
+		// modals end
+		
+		// java script links
+		include _includes/js-links

@@ -1,0 +1,66 @@
+header
+    .header-main
+            .header-top
+                .container
+                    .top-menu
+                        .top-menu_left.top-menu__item
+                            ul.nav
+                                li.nav__item.active
+                                    a(href="#" title="nav item")
+                                        i(class="fa fa-home")
+                                li.nav__item
+                                    .dropdown
+                                        .dropbtn
+                                            span.dropbtn__lang en
+                                        .dropdown-content
+                                            a(href="") ua
+                                            a(href="") en
+                                li.nav__item
+                                    a(href="#" title="nav item")
+                                        i(class="fa fa-home")
+                        .top-menu_right.top-menu__item
+                            ul.nav
+                                li.nav__item
+                                    a(href="#" title="nav item") some item
+                                li.nav__item
+                                    a(href="#" title="nav item") some item
+                                li.nav__item
+                                    a(href="#" title="nav item") some item
+            .header-middle
+                .container
+                    .row
+                        .header-middle_inner
+                            .col-md-6
+                                .main-logo
+                                    a(href="main.html")
+                                        img(src="img/logo2.png" alt="main logo" title="car Town")
+                            .col-md-8
+                                .main-menu
+                                    ul.nav
+                                        li.nav__item
+                                            a(href="catalog.html" title="nav item") Турбіна
+                                        li.nav__item
+                                            a(href="catalog.html" title="nav item") Вкладиш
+                            .col-md-8
+                                .search-container
+                                    form.navbar-search.input-group
+                                        input(type="text" placeholder="шукати...").searchbox
+                                        button(type="submit").btn.btn_search
+                                            i.fa.fa-search
+                            .col-md-2
+                                .dropdown-cart
+                                    .dropdown
+                                        .dropbtn.cart
+                                            a(href="#")
+                                                i.fas.fa-shopping-cart
+                                        .dropdown-content.dropdown-content_cart
+                                            span.empty-cart-msg Ваш кошик пустий.
+                                            ul.cart-list
+                                                li
+                                                    a(href="#") first element
+                                                li
+                                                    a(href="#") second very very long item here
+                                                li
+                                                    a(href="#") third item
+                                        span.cart-items 0
+            .header-bottom

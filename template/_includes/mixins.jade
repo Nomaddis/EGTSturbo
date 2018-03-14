@@ -1,0 +1,19 @@
+mixin radio(ttl, name)
+	label.checkbox
+		input(type="radio", name=name)
+		i.c__radio
+		span=ttl
+
+mixin checkbox(ttl)
+	label.checkbox
+		input(type='checkbox')
+		i.c__check_md
+			svg.icon.icon-c__check
+				use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='#icon-c__check')
+		span=ttl
+
+mixin svg(ttl, advClass)
+	-ttl ? ttl : ttl = ""
+	-advClass ? advClass : advClass = ""
+	svg.icon(class="#{ttl} #{advClass}")
+		use(xlink:href="##{ttl}")

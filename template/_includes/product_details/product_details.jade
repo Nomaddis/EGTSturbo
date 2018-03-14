@@ -1,0 +1,265 @@
+section.product_details
+    .container
+        .product_details_main
+            .row
+                .col-md-12
+                    .product_details__main__slider_wrap
+                        .row
+                            .col-md-19
+                                ul.product_details__main__slider
+                                    li.img-cont
+                                        img(src='img/product3.jpg')
+                                    li.img-cont
+                                        img(src='img/product1.jpg')
+                                    li.img-cont
+                                        img(src='img/product2.jpg')
+                                    li.img-cont
+                                        img(src='img/product4.jpg')
+                            .col-md-5
+                                #bx-pager.product_details__main__prew
+                                    a(data-slide-index='0', href='').img-cont
+                                        img(src='img/product3.jpg')
+                                    a(data-slide-index='1', href='').img-cont
+                                        img(src='img/product1.jpg')
+                                    a(data-slide-index='2', href='').img-cont
+                                        img(src='img/product2.jpg')
+                                    a(data-slide-index='3', href='').img-cont
+                                        img(src='img/product4.jpg')
+
+                .col-md-12
+                    .product_details__main__params
+                        //add class ".inactive" vvvvv
+                        .product_details__main__params_top
+                            h3.product_details__main__params_top__title Product title
+                            span.out-of-stock__title out of stock
+                            .product_details__main__params_top__stars
+                                a(href="").catalog__item__stars_link
+                                    i(class="fa fa-star" aria-hidden="true")
+                                    i(class="fa fa-star" aria-hidden="true")
+                                    i(class="fa fa-star-o" aria-hidden="true")
+                                    i(class="fa fa-star-o" aria-hidden="true")
+                                    i(class="fa fa-star-o" aria-hidden="true")
+                                span.in-stock in stock
+                            .product_details__main__params_top__buttons
+                                //.product_details__main__params_top__buttons_color
+                                //    select.selectpicker_color
+                                //        option(data-content="<div class='product_details_color_select color_select_black'></div><span class='label label-success'>black</span>")
+                                //        option(data-content="<div class='product_details_color_select color_select_blue'></div><span class='label label-success'>blue</span>")
+                                //        option(data-content="<div class='product_details_color_select color_select_green'></div><span class='label label-success'>green</span>")
+                                //        option(data-content="<div class='product_details_color_select color_select_red'></div><span class='label label-success'>red</span>")
+                                //
+                                //.product_details__main__params_top__buttons_size
+                                //    select.selectpicker_size
+                                //        option XS
+                                //        option S
+                                //        option M
+                                //        option L
+                                //        option XL
+                                //        option XXL
+                                .product_details__main__params_top__buttons_wishlist
+                                    button.add-to-whishlist
+                                        i.fa.fa-heart.heart_wishlist(aria-hidden="true")
+                                        span add to wishlist
+                        .product_details__main__params_middle
+                            .product_details__short_text
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula quis orci dapibus efficitured ex elit, ultrices et maximus consequadapibus efficitured ex elit, ultrices et maximus consequa
+                            .product_details__buy-param
+                                select.selectpicker_qty
+                                    option 1
+                                    option 2
+                                    option 3
+                                    option 4
+                                    option 5
+                            .product_details__price
+                                .catalog__item__price__old
+                                    span 6156
+                                    span грн
+                                .catalog__item__price__new
+                                    span 5000
+                                    span грн
+                            .product_details__feedback
+                                .product_details__feedback__write
+                                    i.fa.fa-pencil(aria-hidden="true")
+                                    a(href="") write a reviews
+                                .product_details__feedback__view
+                                    i.fa.fa-comments(aria-hidden="true")
+                                    a(href="") write a reviews
+                        .product_details__main__params_bottom
+                            //add class ".out-of-stock__btn"  vvvvvv
+                            a(href="#").product_details_add_to_card add to cart
+                        //.product_details__main__share
+                        //    span Share with:
+                        //    a(href="")
+                        //        i.fa.fa-facebook(aria-hidden="true")
+                        //    a(href="")
+                        //        i.fa.fa-twitter(aria-hidden="true")
+                        //    a(href="")
+                        //        i.fa.fa-google-plus(aria-hidden="true")
+                        .product_details__main__bottom_line
+        .product_details_main__desc
+            .desc_tabs
+                // Nav tabs
+                ul.nav.nav-tabs.nav-tabs-product_detail(role='tablist')
+                    li.active(role='presentation')
+                        a(href='#descriptions', aria-controls='descriptions', role='tab', data-toggle='tab') Descriptions
+                    li(role='presentation')
+                        a(href='#characteristics', aria-controls='characteristics', role='tab', data-toggle='tab') Characteristics
+                    li(role='presentation')
+                        a(href='#video', aria-controls='video', role='tab', data-toggle='tab') Video
+                    li(role='presentation')
+                        a(href='#Reviews', aria-controls='Reviews', role='tab', data-toggle='tab') Reviews
+                         span.reviews-qty (2)
+                    li(role='presentation')
+                        a(href='#drivers', aria-controls='drivers', role='tab', data-toggle='tab') Drivers and instruction
+                // Tab panes
+                .tab-content.tab-content-product_detail
+                    #descriptions.tab-pane.active.tab-content__item.tab-content__item_desc(role='tabpanel')
+                        p.
+                            Vivamus finibus ante erat, nec aliquam mauris suscipit at. Suspendisse bibendum nisl lectus. Curabitur varius a nunc eget tempor. Mauris nisi dolor, pretium eget ornare vestilum, mollis a neque. Duis consectetur ipsum quis accumsan laoreet. Integer malesuada feugiat volutpat. Donec non sapien sapien. Phasellus eu lobortis augue. Curabitur cursus feugiat erat a fringilla. Ut turpis lacus, congue et tellus vel, ullamcorper aliquam lacus. Nunc non aliquam dui. Phasellus mollis sem sit amet sem pharetra, ut ullamcorper orci porta.
+
+                            Phasellus at nisl a sem rhoncus rutrum at ac orci. Etiam eros dolor, posuere sit amet aliquam aliquet, sagittis non urna. Nam viverra placerat sapien vel accumsan. In gravida nec sem at hendrerit. Nullam odio lorem, fringilla hendrerit diam quis, mattis suscipit mi. Cras rutrum, elit id blandit convallis, nisl ante convallis risus, non vehicula nibh ipsum quis lorem. Curabitur fermentum libero quis augue egestas malesuada. Mauris finibus viverra convallisVivamus finibus ante erat, nec aliquam mauris suscipit at. Suspendisse bibendum nisl lectus. Curabitur varius a nunc eget tempor. Mauris nisi dolor, pretium eget ornare vestibulum, mollis a neque. Duis consectetur ipsum quis accumsan laoreet. Integer malesuada feugiat volutpat. Donec non sapien sapien. Phasellus eu lobortis augue. Curabitur cursus feugiat erat a fringilla. Ut turpis lacus, congue et tellus vel, ullamcorper aliquam lacus. Nunc non aliquam dui. Phasellus mollis sem sit amet sem pharetra, ut ullamcorper orci porta.
+
+                            Phasellus at nisl a sem rhoncus rutrum at ac orci. Etiam eros dolor, posuere sit amet aliquam aliquet, sagittis non urna. Nam viverra placerat sapien vel accumsan. In gravida nec sem at hendrerit. Nullam odio lorem, fringilla hendrerit diam quis, mattis suscipit mi. Cras rutrum, elit id blandit convallis, nisl ante convallis risus, non vehicula nibh ipsum quis lorem. Curabitur fermentum libero quis augue egestas malesuada. Mauris finibus viverra convallis
+                    #characteristics.tab-pane.tab-content_item.tab-content__item.tab-content__item_char(role='tabpanel')
+                        table
+                            tbody
+                                tr
+                                    td Type of controller:
+                                    td auto
+                                tr
+                                    td Type of connection:
+                                    td cabel
+                                tr
+                                    td QTY of points:
+                                    td 1
+                                tr
+                                    td Power:
+                                    td DC 9-28V
+                                tr
+                                    td Length:
+                                    td 80x45x25mm
+
+
+                    #video.tab-pane.tab-content__item.tab-content__item_video(role='tabpanel')
+                        .tab-content-video_wrap
+                            p.
+                                Vivamus finibus ante erat, nec aliquam mauris suscipit at. Suspendisse bibendum nisl lectus. Curabitur varius a nunc eget tempor. Mauris nisi dolor, pretium eget ornare vestilum, mollis a neque. Duis consectetur ipsum quis accumsan laoreet. Integer malesuada feugiat volutpat. Donec non sapien sapien. Phasellus eu lobortis augue. Curabitur cursus feugiat erat a fringilla. Ut turpis lacus, congue et tellus vel, ullamcorper aliquam lacus. Nunc non aliquam dui. Phasellus mollis sem sit amet sem pharetra, ut ullamcorper orci porta.
+                            .video_wrap
+                                iframe(width='854', height='480', src='https://www.youtube.com/embed/IFqA-HSKLbI', frameborder='0', allowfullscreen='')
+                    #Reviews.tab-pane.tab-content__item.tab-content__item_rew(role='tabpanel')
+                        .tab-content__item__views_feedback
+                            .row
+                                .col-md-12
+                                    .tab-content__item__views_reviews
+                                        .tab-content__item_review-feedback
+                                            .tab-content__item_review-avatar.img-cont
+                                                img(src="img/face3.jpg" alt="avatar")
+                                            .tab-content__item_review-info
+                                                span Big Ronie
+                                                p.tab-content__item_review-text.
+                                                    Контроллер идет в комплекте со считывателем? считывателем и как програь карточки?
+                                                a(href="").catalog__item__stars_link.tab-content__item_review-info_stars
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                time(datetime="2017-09-23").tab-content__item_review-info_date 23.09.2017
+                                        .tab-content__item_review-feedback
+                                            .tab-content__item_review-avatar.img-cont
+                                                img(src="img/face3.jpg" alt="avatar")
+                                            .tab-content__item_review-info
+                                                span Big Ronie
+                                                p.tab-content__item_review-text.
+                                                    Контроллер идет в комплекте со считывателем? считывателем и как програь карточки?
+                                                a(href="").catalog__item__stars_link.tab-content__item_review-info_stars
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                time(datetime="2017-09-23").tab-content__item_review-info_date 23.09.2017
+                                        .tab-content__item_review-feedback
+                                            .tab-content__item_review-avatar.img-cont
+                                                img(src="img/face3.jpg" alt="avatar")
+                                            .tab-content__item_review-info
+                                                span Big Ronie
+                                                p.tab-content__item_review-text.
+                                                    Контроллер идет в комплекте со считывателем? считывателем и как програь карточки?
+                                                a(href="").catalog__item__stars_link.tab-content__item_review-info_stars
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                    i(class="fa fa-star-o" aria-hidden="true")
+                                                time(datetime="2017-09-23").tab-content__item_review-info_date 23.09.2017
+
+                                .col-md-12
+                                    .tab-content__item__write_rewiews
+                                        form(action="URL" name="detail_page_review" method="")
+                                            h6 Write your Review
+                                            input(type="text" placeholder="Type your name").tab-content__item__write_rewiews-name
+                                            input(type="email" placeholder="Type your email").tab-content__item__write_rewiews-email
+                                            textarea(placeholder="Type your feedback").tab-content__item__write_rewiews-text
+                                            .star-rating__wrap
+                                                input#star-rating-5.star-rating__input(type='radio', name='rating', value='5')
+                                                label.star-rating__ico.fa.fa-star-o.fa-lg(for='star-rating-5', title='5 out of 5 stars')
+                                                input#star-rating-4.star-rating__input(type='radio', name='rating', value='4')
+                                                label.star-rating__ico.fa.fa-star-o.fa-lg(for='star-rating-4', title='4 out of 5 stars')
+                                                input#star-rating-3.star-rating__input(type='radio', name='rating', value='3')
+                                                label.star-rating__ico.fa.fa-star-o.fa-lg(for='star-rating-3', title='3 out of 5 stars')
+                                                input#star-rating-2.star-rating__input(type='radio', name='rating', value='2')
+                                                label.star-rating__ico.fa.fa-star-o.fa-lg(for='star-rating-2', title='2 out of 5 stars')
+                                                input#star-rating-1.star-rating__input(type='radio', name='rating', value='1')
+                                                label.star-rating__ico.fa.fa-star-o.fa-lg(for='star-rating-1', title='1 out of 5 stars')
+                                            button(type="submit") Submit
+
+
+                    #drivers.tab-pane.tab-content__item.tab-content__item.tab-content__item_drv(role='tabpanel')
+                        table
+                            tbody
+                                tr
+                                    td Instruction
+                                    td pdf
+                                    td 1mb
+                                    td
+                                        a(href="") Download
+                                tr
+                                    td Driver
+                                    td exe
+                                    td 12mb
+                                    td
+                                        a(href="") Download
+        .related_products__wrap
+            .related_products__head
+                .header
+                    h4 Related products
+            .related_products
+                a.slide-side-next.slide-side
+                a.slide-side-prev.slide-side
+                .related_products__slider
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+                    .slide
+                        include ../blocks/product.jade
+        .product_details__benefits
+            include ../blocks/benefits.jade
+
+
+
