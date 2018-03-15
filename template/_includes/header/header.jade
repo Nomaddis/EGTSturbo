@@ -15,17 +15,17 @@ header
                                         .dropdown-content
                                             a(href="") ua
                                             a(href="") en
-                                li.nav__item
-                                    a(href="#" title="nav item")
-                                        i(class="fa fa-home")
+                                //li.nav__item
+                                //    a(href="#" title="nav item")
+                                //        i(class="fa fa-home")
                         .top-menu_right.top-menu__item
                             ul.nav
                                 li.nav__item
-                                    a(href="#" title="nav item") some item
+                                    a(href="#" title="nav item") Каталог
                                 li.nav__item
-                                    a(href="#" title="nav item") some item
-                                li.nav__item
-                                    a(href="#" title="nav item") some item
+                                    a(href="#" title="nav item") Про нас
+                                //li.nav__item
+                                //    a(href="#" title="nav item") some item
             .header-middle
                 .container
                     .row
@@ -42,11 +42,17 @@ header
                                         li.nav__item
                                             a(href="catalog.html" title="nav item") Вкладиш
                             .col-md-8
-                                .search-container
-                                    form.navbar-search.input-group
-                                        input(type="text" placeholder="шукати...").searchbox
-                                        button(type="submit").btn.btn_search
-                                            i.fa.fa-search
+                                .form-menu-container.search-container
+                                    form
+                                        input(type="text" placeholder="шукати...")
+                                        .input-group-btn.search-btn
+                                            button(type=submit)
+                                                i.fa.fa-search
+                                //.search-container
+                                //    form.navbar-search.input-group
+                                //        input(type="text" placeholder="шукати...").searchbox
+                                //        button(type="submit").btn.btn_search
+                                //            i.fa.fa-search
                             .col-md-2
                                 .dropdown-cart
                                     .dropdown

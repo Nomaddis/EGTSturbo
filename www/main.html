@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta id="myViewport" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="author" content="">
-    <title>title</title>
+    <title>ЄGTSturbo - Головна</title>
     <!-- Bootstrap core CSS-->
     <link href="js/slick/slick-theme.css" rel="stylesheet">
     <link href="js/slick/slick.css" rel="stylesheet">
     <link href="css/all.css" rel="stylesheet">
     <link href="css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,300italic,400italic,500italic,700italic,900&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,300italic,400italic,500italic,700italic,900&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png"><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -31,14 +33,17 @@
                       <div class="dropdown-content"><a href="">ua</a><a href="">en</a></div>
                     </div>
                   </li>
-                  <li class="nav__item"><a href="#" title="nav item"><i class="fa fa-home"></i></a></li>
+                  <!--li.nav__item-->
+                  <!--    a(href="#" title="nav item")-->
+                  <!--        i(class="fa fa-home")-->
                 </ul>
               </div>
               <div class="top-menu_right top-menu__item">
                 <ul class="nav">
-                  <li class="nav__item"><a href="#" title="nav item">some item</a></li>
-                  <li class="nav__item"><a href="#" title="nav item">some item</a></li>
-                  <li class="nav__item"><a href="#" title="nav item">some item</a></li>
+                  <li class="nav__item"><a href="#" title="nav item">Каталог</a></li>
+                  <li class="nav__item"><a href="#" title="nav item">Про нас</a></li>
+                  <!--li.nav__item-->
+                  <!--    a(href="#" title="nav item") some item-->
                 </ul>
               </div>
             </div>
@@ -60,12 +65,19 @@
                   </div>
                 </div>
                 <div class="col-md-8">
-                  <div class="search-container">
-                    <form class="navbar-search input-group">
-                      <input type="text" placeholder="шукати..." class="searchbox">
-                      <button type="submit" class="btn btn_search"><i class="fa fa-search"></i></button>
+                  <div class="form-menu-container search-container">
+                    <form>
+                      <input type="text" placeholder="шукати...">
+                      <div class="input-group-btn search-btn">
+                        <button><i class="fa fa-search"></i></button>
+                      </div>
                     </form>
                   </div>
+                  <!--.search-container-->
+                  <!--    form.navbar-search.input-group-->
+                  <!--        input(type="text" placeholder="шукати...").searchbox-->
+                  <!--        button(type="submit").btn.btn_search-->
+                  <!--            i.fa.fa-search-->
                 </div>
                 <div class="col-md-2">
                   <div class="dropdown-cart">
@@ -94,21 +106,36 @@
           <div class="main-slider">
             <div class="main-slider__item">
               <div class="slider-img-wrap">
-                <div class="slider-img slider-img_first"></div>
+                <div class="img-cont"><img src="img/header-slide-1.jpg" alt="slider-img"></div>
               </div>
-              <div class="slider-desc"></div>
+              <div class="slider-desc">
+                <div class="desc">
+                  <div class="desc__title">Bring Light to every</div>
+                  <div class="desc__text">Lights engineered for supreme efficiency</div><a href="#" class="btn desc-btn">Discover collection</a>
+                </div>
+              </div>
             </div>
             <div class="main-slider__item">
               <div class="slider-img-wrap">
-                <div class="slider-img slider-img_second"></div>
+                <div class="img-cont"><img src="img/header-slide-2.jpg" alt="slider-img"></div>
               </div>
-              <div class="slider-desc"></div>
+              <div class="slider-desc">
+                <div class="desc">
+                  <div class="desc__title">Bring Light to every</div>
+                  <div class="desc__text">Lights engineered for supreme efficiency</div><a href="#" class="btn desc-btn">Discover collection</a>
+                </div>
+              </div>
             </div>
             <div class="main-slider__item">
               <div class="slider-img-wrap">
-                <div class="slider-img slider-img_third"></div>
+                <div class="img-cont"><img src="img/header-slide-3.jpg" alt="slider-img"></div>
               </div>
-              <div class="slider-desc"></div>
+              <div class="slider-desc">
+                <div class="desc">
+                  <div class="desc__title">Bring Light to every</div>
+                  <div class="desc__text">Lights engineered for supreme efficiency</div><a href="#" class="btn desc-btn">Discover collection</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -151,19 +178,23 @@
           <div class="wheels-banner">
             <div class="cotainer">
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12">
                   <div class="wheels-img-wrap">
                     <div class="img-cont"><img src="img/turbina.png">
                       <!--img(src="img/tyre.png")-->
                     </div>
                   </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-sm-12">
                   <div class="wheels-img-text-wrap">
                     <div class="wheels-img-text-inner">
                       <h1>Турбіни</h1>
-                      <p>from<br> only</p>
-                      <h2>$20.00</h2><br><a class="btn wheels-btn">детально</a>
+                      <p><span class="from-only">ВІД</span>
+                        <!--| from-->
+                        <!--br-->
+                        <!--|  only-->
+                      </p>
+                      <h2>$199.99</h2><br><a class="btn wheels-btn">детально</a>
                     </div>
                   </div>
                 </div>
@@ -175,7 +206,7 @@
           <div class="container">
             <div class="our-client">
               <div class="slider-title">
-                <h4>Наші клієнти</h4>
+                <h4>Ми постачаємо для</h4>
               </div>
               <div class="brands-slider">
                 <div class="brands-slider__item">

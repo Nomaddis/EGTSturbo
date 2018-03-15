@@ -104,17 +104,17 @@ $('.catalog__item__controls__btn').on('click', function () {
 
 
 //-----------------vvvvvvvvvvvvvvvvv Price slider start vvvvvvvvvvvvvv----------------
-$(".price_slider").slider({
-    range:  true,
-    min:    0,
-    max:    10000,
-    values: [0, 10000],
-    slide: function(e, ui) {
-        //console.log(ui.value);
-        $('#price_min').val(ui.values[0]);
-        $('#price_max').val(ui.values[1]);
-    }
-});
+// $(".price_slider").slider({
+//     range:  true,
+//     min:    0,
+//     max:    10000,
+//     values: [0, 10000],
+//     slide: function(e, ui) {
+//         //console.log(ui.value);
+//         $('#price_min').val(ui.values[0]);
+//         $('#price_max').val(ui.values[1]);
+//     }
+// });
 $('#price_min').change(function() {
     $( ".price_slider" ).slider("values", [ $('#price_min').val(), $('#price_max').val()] );
 });

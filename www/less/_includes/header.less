@@ -24,6 +24,11 @@ header {
 .top-menu {
 	display: flex;
 	justify-content: space-between;
+	@media screen and (max-width: 425px) {
+		ul {
+			padding-left: 0;
+		}
+	}
 }
 .nav {
 	margin: 0;
@@ -58,6 +63,18 @@ header {
 			&:hover {
 				color: @red;
 			}
+		}
+	}
+	@media screen and (max-width: 800px) {
+		font-size: 14px;
+		a, .dropbtn {
+			line-height: 45px;
+		}
+	}
+	@media screen and (max-width: 375px) {
+		font-size: 13px;
+		a {
+			padding: 0 10px;
 		}
 	}
 }
@@ -136,6 +153,17 @@ header {
 	}
 	img {
 		width: 184px;
+
+	}
+	@media screen and (max-width: 968px) {
+		img {
+			width: 150px;
+		}
+	}
+	@media screen and (max-width: 840px) {
+		img {
+			width: 130px;
+		}
 	}
 }
 .header-middle_inner {
@@ -147,32 +175,47 @@ header {
 		padding: 0 15px;
 		line-height: 52px;
 		color: white;
+		display: block;
 		&:hover {
 			background-color: @red;
+		}
+	}
+	@media screen and (max-width: 968px) {
+		ul {
+			padding-left: 0;
 		}
 	}
 }
 /*==================== SEARCH FORM ===================*/
 .search-container {
 	position: relative;
-}
-.searchbox {
-	height: 43px;
-	width: 315px;
-	padding-right: 42px;
-	padding-left: 15px;
-	font-size: 18px;
-	box-sizing: content-box;
-}
-.search-container {
-	.btn_search {
-		position: absolute;
-		right: 0px;
-		top:0;
-		height: 100%;
-		background-color: transparent;
+	.search-btn {
+		button {
+			font-size: 25px;
+			padding: 6px 10px;
+			color: @black;
+			background-color: #FFFFFF;
+		}
 	}
+
 }
+//.searchbox {
+//	height: 43px;
+//	width: 315px;
+//	padding-right: 42px;
+//	padding-left: 15px;
+//	font-size: 18px;
+//	box-sizing: content-box;
+//}
+//.search-container {
+//	.btn_search {
+//		position: absolute;
+//		right: 0px;
+//		top:0;
+//		height: 100%;
+//		background-color: transparent;
+//	}
+//}
 
 
 
@@ -232,6 +275,11 @@ header {
 	&:hover {
 		background-color: @red;
 	}
+	@media screen and (max-width: 875px) {
+		a {
+			padding: 5px 9px;
+		}
+	}
 }
 .cart-items {
 	position: absolute;
@@ -248,4 +296,7 @@ header {
 	border-radius: 50%;
 	background-color: #fa5d3b;
 	color: #fff;
+	@media screen and (max-width: 875px) {
+		padding: 3px 5px;
+	}
 }

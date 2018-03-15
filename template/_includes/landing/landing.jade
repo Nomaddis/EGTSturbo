@@ -3,16 +3,31 @@ main
         .main-slider
             div.main-slider__item
                 .slider-img-wrap
-                    .slider-img.slider-img_first
+                    .img-cont
+                        img(src="img/header-slide-1.jpg" alt="slider-img")
                 .slider-desc
+                    .desc
+                        .desc__title Bring Light to every
+                        .desc__text Lights engineered for supreme efficiency
+                        a(href="#").btn.desc-btn Discover collection
             div.main-slider__item
                 .slider-img-wrap
-                    .slider-img.slider-img_second
+                    .img-cont
+                        img(src="img/header-slide-2.jpg" alt="slider-img")
                 .slider-desc
+                    .desc
+                        .desc__title Bring Light to every
+                        .desc__text Lights engineered for supreme efficiency
+                        a(href="#").btn.desc-btn Discover collection
             div.main-slider__item
                 .slider-img-wrap
-                    .slider-img.slider-img_third
+                    .img-cont
+                        img(src="img/header-slide-3.jpg" alt="slider-img")
                 .slider-desc
+                    .desc
+                        .desc__title Bring Light to every
+                        .desc__text Lights engineered for supreme efficiency
+                        a(href="#").btn.desc-btn Discover collection
     section
         .container
             .promo-banners-container
@@ -50,20 +65,21 @@ main
         .wheels-banner
             .cotainer
                 .row
-                    .col-md-12
+                    .col-sm-12
                         .wheels-img-wrap
                             .img-cont
                                 img(src="img/turbina.png")
                                 //img(src="img/tyre.png")
-                    .col-md-12
+                    .col-sm-12
                         .wheels-img-text-wrap
                             .wheels-img-text-inner
                                 h1 Турбіни
                                 p
-                                    | from
-                                    br
-                                    |  only
-                                h2 $20.00
+                                    span.from-only ВІД
+                                    //| from
+                                    //br
+                                    //|  only
+                                h2 $199.99
                                 br
                                 a.btn.wheels-btn детально
 
@@ -71,7 +87,7 @@ main
         .container
             .our-client
                 .slider-title
-                    h4 Наші клієнти
+                    h4 Ми постачаємо для
                 .brands-slider
                     div.brands-slider__item
                         .item-inner
