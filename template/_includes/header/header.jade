@@ -30,18 +30,20 @@ header
                 .container
                     .row
                         .header-middle_inner
-                            .col-md-6
+                            .logo-menu
                                 .main-logo
                                     a(href="main.html")
                                         img(src="img/logo2.png" alt="main logo" title="car Town")
-                            .col-md-8
+                            .header-menu
+                                //.col-md-8
                                 .main-menu
                                     ul.nav
                                         li.nav__item
                                             a(href="catalog.html" title="nav item") Турбіна
                                         li.nav__item
                                             a(href="catalog.html" title="nav item") Вкладиш
-                            .col-md-8
+                            .menu-buttons
+
                                 .form-menu-container.search-container
                                     form
                                         input(type="text" placeholder="шукати...")
@@ -53,7 +55,7 @@ header
                                 //        input(type="text" placeholder="шукати...").searchbox
                                 //        button(type="submit").btn.btn_search
                                 //            i.fa.fa-search
-                            .col-md-2
+
                                 .dropdown-cart
                                     .dropdown
                                         .dropbtn.cart
@@ -69,4 +71,7 @@ header
                                                 li
                                                     a(href="#") third item
                                         span.cart-items 0
+                                .show-mobile
+                                    button.show-mobile-menu-btn
+                                        span
             .header-bottom

@@ -337,6 +337,10 @@
 .call-form {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }
 .call-form__left {
   p {
@@ -383,6 +387,9 @@
       background-image: none;
       transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
       height: 45px;
+      @media screen and (max-width: 425px) {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -408,6 +415,9 @@
     display: inline-block;
     padding: 6px 30px;
     margin-bottom: 0;
+    @media screen and (max-width: 375px) {
+      padding: 6px 15px !important;
+    }
   }
 }
 

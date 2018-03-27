@@ -141,3 +141,8 @@ function check_sidebar() {
     }
 }
 
+//mobile menu
+$('show-mobile-menu-btn').on('click', function () {
+    $(this).toggleClass('active');
+    console.log("ubludkki");
+});
