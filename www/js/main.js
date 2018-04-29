@@ -1,6 +1,32 @@
+
+
 $('.dropdown-content a').on("click", function () {
     $('.dropbtn__lang').html(this.innerHTML);
 });
+
+//------------------------ product detail slider --------------------
+$('.product_details__main__slider').bxSlider({
+    pagerCustom: '#bx-pager',
+    controls: false
+});
+//---------------------- product detail tabs ------------------
+$('#myTabs a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show')
+});
+
+$(document).ready(function(){
+    $('.related_products__slider').bxSlider({
+        slideWidth: 300,
+        minSlides: 1,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideMargin: 0,
+        auto: true
+    });
+});
+
+
 $(document).ready(function(){
     $('.main-slider').slick({
         dots: true,

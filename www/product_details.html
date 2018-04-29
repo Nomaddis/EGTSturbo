@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="myViewport" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="author" content="">
+    <title>Турбіна - карточка товару</title>
+    <!-- Bootstrap core CSS-->
+    <link href="js/slick/slick-theme.css" rel="stylesheet">
+    <link href="js/slick/slick.css" rel="stylesheet">
+    <!-- init bx-slider css start-->
+    <link href="js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet">
+    <!-- init bx-slider css end-->
+    <link href="css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,300italic,400italic,500italic,700italic,900&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png"><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="header-main">
+        <div class="header-top">
+          <div class="container">
+            <div class="top-menu">
+              <div class="top-menu_left top-menu__item">
+                <ul class="nav-list">
+                  <li class="nav__item active"><a href="#" title="nav item"><i class="fa fa-home"></i></a></li>
+                  <li class="nav__item">
+                    <div class="dropdown">
+                      <div class="dropbtn"><span class="dropbtn__lang">en</span></div>
+                      <div class="dropdown-content"><a href="">ua</a><a href="">en</a></div>
+                    </div>
+                  </li>
+                  <!--li.nav__item-->
+                  <!--    a(href="#" title="nav item")-->
+                  <!--        i(class="fa fa-home")-->
+                </ul>
+              </div>
+              <div class="top-menu_right top-menu__item">
+                <ul class="nav-list">
+                  <li class="nav__item"><a href="#" title="nav item">Каталог</a></li>
+                  <li class="nav__item"><a href="#" title="nav item">Про нас</a></li>
+                  <!--li.nav__item-->
+                  <!--    a(href="#" title="nav item") some item-->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-middle">
+          <div class="container">
+            <div class="row">
+              <div class="header-middle_inner">
+                <div class="logo-menu">
+                  <div class="main-logo"><a href="main.html"><img src="img/logo2.png" alt="main logo" title="car Town"></a></div>
+                </div>
+                <div class="header-menu">
+                  <!--.col-md-8-->
+                  <div class="main-menu">
+                    <ul class="nav-list">
+                      <li class="nav__item"><a href="catalog.html" title="nav item">Турбіна</a></li>
+                      <li class="nav__item"><a href="catalog.html" title="nav item">Вкладиш</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="menu-buttons">
+                  <div class="form-menu-container search-container">
+                    <form>
+                      <input type="text" placeholder="шукати...">
+                      <div class="input-group-btn search-btn">
+                        <button><i class="fa fa-search"></i></button>
+                      </div>
+                    </form>
+                  </div>
+                  <!--.search-container-->
+                  <!--    form.navbar-search.input-group-->
+                  <!--        input(type="text" placeholder="шукати...").searchbox-->
+                  <!--        button(type="submit").btn.btn_search-->
+                  <!--            i.fa.fa-search-->
+                  <div class="dropdown-cart">
+                    <div class="dropdown">
+                      <div class="dropbtn cart"><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+                      <div class="dropdown-content dropdown-content_cart"><span class="empty-cart-msg">Ваш кошик пустий.</span>
+                        <ul class="cart-list">
+                          <li><a href="#">first element</a></li>
+                          <li><a href="#">second very very long item here</a></li>
+                          <li><a href="#">third item</a></li>
+                        </ul>
+                      </div><span class="cart-items">0</span>
+                    </div>
+                  </div>
+                  <div class="show-mobile">
+                    <button class="show-mobile-menu-btn"><span></span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom"></div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <section class="product_details">
+        <div class="container">
+          <div class="product_details_main">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="product_details__main__slider_wrap">
+                  <div class="row">
+                    <div class="col-md-19">
+                      <ul class="product_details__main__slider">
+                        <li class="img-cont"><img src="img/product3.jpg"></li>
+                        <li class="img-cont"><img src="img/product1.jpg"></li>
+                        <li class="img-cont"><img src="img/product2.jpg"></li>
+                        <li class="img-cont"><img src="img/product4.jpg"></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-5">
+                      <div id="bx-pager" class="product_details__main__prew"><a data-slide-index="0" href="" class="img-cont"><img src="img/product3.jpg"></a><a data-slide-index="1" href="" class="img-cont"><img src="img/product1.jpg"></a><a data-slide-index="2" href="" class="img-cont"><img src="img/product2.jpg"></a><a data-slide-index="3" href="" class="img-cont"><img src="img/product4.jpg"></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="product_details__main__params">
+                  <!--add class ".inactive" vvvvv-->
+                  <div class="product_details__main__params_top">
+                    <h3 class="product_details__main__params_top__title">Product title</h3><span class="out-of-stock__title">out of stock</span>
+                    <div class="product_details__main__params_top__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i></a><span class="in-stock">in stock</span></div>
+                    <div class="product_details__main__params_top__buttons">
+                      <!--.product_details__main__params_top__buttons_color-->
+                      <!--    select.selectpicker_color-->
+                      <!--        option(data-content="<div class='product_details_color_select color_select_black'></div><span class='label label-success'>black</span>")-->
+                      <!--        option(data-content="<div class='product_details_color_select color_select_blue'></div><span class='label label-success'>blue</span>")-->
+                      <!--        option(data-content="<div class='product_details_color_select color_select_green'></div><span class='label label-success'>green</span>")-->
+                      <!--        option(data-content="<div class='product_details_color_select color_select_red'></div><span class='label label-success'>red</span>")-->
+                      <!---->
+                      <!--.product_details__main__params_top__buttons_size-->
+                      <!--    select.selectpicker_size-->
+                      <!--        option XS-->
+                      <!--        option S-->
+                      <!--        option M-->
+                      <!--        option L-->
+                      <!--        option XL-->
+                      <!--        option XXL-->
+                      <div class="product_details__main__params_top__buttons_wishlist">
+                        <button class="add-to-whishlist"><i aria-hidden="true" class="fa fa-heart heart_wishlist"></i><span>add to wishlist</span></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_details__main__params_middle">
+                    <div class="product_details__short_text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ligula quis orci dapibus efficitured ex elit, ultrices et maximus consequadapibus efficitured ex elit, ultrices et maximus consequa</p>
+                    </div>
+                    <div class="product_details__buy-param">
+                      <select class="selectpicker_qty">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                    <div class="product_details__price">
+                      <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                      <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                    </div>
+                    <div class="product_details__feedback">
+                      <div class="product_details__feedback__write"><i aria-hidden="true" class="fa fa-pencil"></i><a href="">write a reviews</a></div>
+                      <div class="product_details__feedback__view"><i aria-hidden="true" class="fa fa-comments"></i><a href="">write a reviews</a></div>
+                    </div>
+                  </div>
+                  <div class="product_details__main__params_bottom">
+                    <!--add class ".out-of-stock__btn"  vvvvvv--><a href="#" class="product_details_add_to_card">add to cart</a>
+                  </div>
+                  <!--.product_details__main__share-->
+                  <!--    span Share with:-->
+                  <!--    a(href="")-->
+                  <!--        i.fa.fa-facebook(aria-hidden="true")-->
+                  <!--    a(href="")-->
+                  <!--        i.fa.fa-twitter(aria-hidden="true")-->
+                  <!--    a(href="")-->
+                  <!--        i.fa.fa-google-plus(aria-hidden="true")-->
+                  <div class="product_details__main__bottom_line"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product_details_main__desc">
+            <div class="desc_tabs">
+              <!-- Nav tabs-->
+              <ul role="tablist" class="nav nav-tabs nav-tabs-product_detail">
+                <li role="presentation" class="active"><a href="#descriptions" aria-controls="descriptions" role="tab" data-toggle="tab">Descriptions</a></li>
+                <li role="presentation"><a href="#characteristics" aria-controls="characteristics" role="tab" data-toggle="tab">Characteristics</a></li>
+                <li role="presentation"><a href="#video" aria-controls="video" role="tab" data-toggle="tab">Video</a></li>
+                <li role="presentation"><a href="#Reviews" aria-controls="Reviews" role="tab" data-toggle="tab">Reviews<span class="reviews-qty">(2)</span></a></li>
+                <li role="presentation"><a href="#drivers" aria-controls="drivers" role="tab" data-toggle="tab">Drivers and instruction</a></li>
+              </ul>
+              <!-- Tab panes-->
+              <div class="tab-content tab-content-product_detail">
+                <div id="descriptions" role="tabpanel" class="tab-pane active tab-content__item tab-content__item_desc">
+                  <p>
+                    Vivamus finibus ante erat, nec aliquam mauris suscipit at. Suspendisse bibendum nisl lectus. Curabitur varius a nunc eget tempor. Mauris nisi dolor, pretium eget ornare vestilum, mollis a neque. Duis consectetur ipsum quis accumsan laoreet. Integer malesuada feugiat volutpat. Donec non sapien sapien. Phasellus eu lobortis augue. Curabitur cursus feugiat erat a fringilla. Ut turpis lacus, congue et tellus vel, ullamcorper aliquam lacus. Nunc non aliquam dui. Phasellus mollis sem sit amet sem pharetra, ut ullamcorper orci porta.
+                    
+                    Phasellus at nisl a sem rhoncus rutrum at ac orci. Etiam eros dolor, posuere sit amet aliquam aliquet, sagittis non urna. Nam viverra placerat sapien vel accumsan. In gravida nec sem at hendrerit. Nullam odio lorem, fringilla hendrerit diam quis, mattis suscipit mi. Cras rutrum, elit id blandit convallis, nisl ante convallis risus, non vehicula nibh ipsum quis lorem. Curabitur fermentum libero quis augue egestas malesuada. Mauris finibus viverra convallisVivamus finibus ante erat, nec aliquam mauris suscipit at. Suspendisse bibendum nisl lectus. Curabitur varius a nunc eget tempor. Mauris nisi dolor, pretium eget ornare vestibulum, mollis a neque. Duis consectetur ipsum quis accumsan laoreet. Integer malesuada feugiat volutpat. Donec non sapien sapien. Phasellus eu lobortis augue. Curabitur cursus feugiat erat a fringilla. Ut turpis lacus, congue et tellus vel, ullamcorper aliquam lacus. Nunc non aliquam dui. Phasellus mollis sem sit amet sem pharetra, ut ullamcorper orci porta.
+                    
+                    Phasellus at nisl a sem rhoncus rutrum at ac orci. Etiam eros dolor, posuere sit amet aliquam aliquet, sagittis non urna. Nam viverra placerat sapien vel accumsan. In gravida nec sem at hendrerit. Nullam odio lorem, fringilla hendrerit diam quis, mattis suscipit mi. Cras rutrum, elit id blandit convallis, nisl ante convallis risus, non vehicula nibh ipsum quis lorem. Curabitur fermentum libero quis augue egestas malesuada. Mauris finibus viverra convallis
+                  </p>
+                </div>
+                <div id="characteristics" role="tabpanel" class="tab-pane tab-content_item tab-content__item tab-content__item_char">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Type of controller:</td>
+                        <td>auto</td>
+                      </tr>
+                      <tr>
+                        <td>Type of connection:</td>
+                        <td>cabel</td>
+                      </tr>
+                      <tr>
+                        <td>QTY of points:</td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                        <td>Power:</td>
+                        <td>DC 9-28V</td>
+                      </tr>
+                      <tr>
+                        <td>Length:</td>
+                        <td>80x45x25mm</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div id="video" role="tabpanel" class="tab-pane tab-content__item tab-content__item_video">
+                  <div class="tab-content-video_wrap">
+                    <p>Vivamus finibus ante erat, nec aliquam mauris suscipit at. Suspendisse bibendum nisl lectus. Curabitur varius a nunc eget tempor. Mauris nisi dolor, pretium eget ornare vestilum, mollis a neque. Duis consectetur ipsum quis accumsan laoreet. Integer malesuada feugiat volutpat. Donec non sapien sapien. Phasellus eu lobortis augue. Curabitur cursus feugiat erat a fringilla. Ut turpis lacus, congue et tellus vel, ullamcorper aliquam lacus. Nunc non aliquam dui. Phasellus mollis sem sit amet sem pharetra, ut ullamcorper orci porta.</p>
+                    <div class="video_wrap">
+                      <iframe width="854" height="480" src="https://www.youtube.com/embed/IFqA-HSKLbI" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div id="Reviews" role="tabpanel" class="tab-pane tab-content__item tab-content__item_rew">
+                  <div class="tab-content__item__views_feedback">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="tab-content__item__views_reviews">
+                          <div class="tab-content__item_review-feedback">
+                            <div class="tab-content__item_review-avatar img-cont"><img src="img/face3.jpg" alt="avatar"></div>
+                            <div class="tab-content__item_review-info"><span>Big Ronie</span>
+                              <p class="tab-content__item_review-text">Контроллер идет в комплекте со считывателем? считывателем и как програь карточки?</p><a href="" class="catalog__item__stars_link tab-content__item_review-info_stars"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i></a>
+                              <time datetime="2017-09-23" class="tab-content__item_review-info_date">23.09.2017</time>
+                            </div>
+                          </div>
+                          <div class="tab-content__item_review-feedback">
+                            <div class="tab-content__item_review-avatar img-cont"><img src="img/face3.jpg" alt="avatar"></div>
+                            <div class="tab-content__item_review-info"><span>Big Ronie</span>
+                              <p class="tab-content__item_review-text">Контроллер идет в комплекте со считывателем? считывателем и как програь карточки?</p><a href="" class="catalog__item__stars_link tab-content__item_review-info_stars"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i></a>
+                              <time datetime="2017-09-23" class="tab-content__item_review-info_date">23.09.2017</time>
+                            </div>
+                          </div>
+                          <div class="tab-content__item_review-feedback">
+                            <div class="tab-content__item_review-avatar img-cont"><img src="img/face3.jpg" alt="avatar"></div>
+                            <div class="tab-content__item_review-info"><span>Big Ronie</span>
+                              <p class="tab-content__item_review-text">Контроллер идет в комплекте со считывателем? считывателем и как програь карточки?</p><a href="" class="catalog__item__stars_link tab-content__item_review-info_stars"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i></a>
+                              <time datetime="2017-09-23" class="tab-content__item_review-info_date">23.09.2017</time>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="tab-content__item__write_rewiews">
+                          <form action="URL" name="detail_page_review" method="">
+                            <h6>Write your Review</h6>
+                            <input type="text" placeholder="Type your name" class="tab-content__item__write_rewiews-name">
+                            <input type="email" placeholder="Type your email" class="tab-content__item__write_rewiews-email">
+                            <textarea placeholder="Type your feedback" class="tab-content__item__write_rewiews-text"></textarea>
+                            <div class="star-rating__wrap">
+                              <input id="star-rating-5" type="radio" name="rating" value="5" class="star-rating__input">
+                              <label for="star-rating-5" title="5 out of 5 stars" class="star-rating__ico fa fa-star-o fa-lg"></label>
+                              <input id="star-rating-4" type="radio" name="rating" value="4" class="star-rating__input">
+                              <label for="star-rating-4" title="4 out of 5 stars" class="star-rating__ico fa fa-star-o fa-lg"></label>
+                              <input id="star-rating-3" type="radio" name="rating" value="3" class="star-rating__input">
+                              <label for="star-rating-3" title="3 out of 5 stars" class="star-rating__ico fa fa-star-o fa-lg"></label>
+                              <input id="star-rating-2" type="radio" name="rating" value="2" class="star-rating__input">
+                              <label for="star-rating-2" title="2 out of 5 stars" class="star-rating__ico fa fa-star-o fa-lg"></label>
+                              <input id="star-rating-1" type="radio" name="rating" value="1" class="star-rating__input">
+                              <label for="star-rating-1" title="1 out of 5 stars" class="star-rating__ico fa fa-star-o fa-lg"></label>
+                            </div>
+                            <button type="submit">Submit</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="drivers" role="tabpanel" class="tab-pane tab-content__item tab-content__item tab-content__item_drv">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Instruction</td>
+                        <td>pdf</td>
+                        <td>1mb</td>
+                        <td><a href="">Download</a></td>
+                      </tr>
+                      <tr>
+                        <td>Driver</td>
+                        <td>exe</td>
+                        <td>12mb</td>
+                        <td><a href="">Download</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="related_products__wrap">
+            <div class="related_products__head">
+              <div class="header">
+                <h4>Related products</h4>
+              </div>
+            </div>
+            <div class="related_products"><a class="slide-side-next slide-side"></a><a class="slide-side-prev slide-side"></a>
+              <div class="related_products__slider">
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="catalog__item_wrap">
+                    <div class="catalog__item-inner">
+                      <div class="catalog__item">
+                        <div class="catalog__item__img"><a href="/www/product_details.html" class="img-cont"><img src="img/product1.jpg"></a>
+                          <div class="catalog__item__specials">
+                            <div class="catalog__item__new"><span>Новинка</span></div>
+                            <div class="catalog__item__sale"><span>Суперціна</span></div>
+                            <div class="catalog__item__hot"><span>Топ продажів</span></div>
+                          </div>
+                          <div class="catalog__item__stars"><a href="" class="catalog__item__stars_link"><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><i aria-hidden="true" class="fa fa-star-o"></i><span>відгуки (100)</span></a></div>
+                        </div>
+                        <div class="catalog__item__inf">
+                          <div class="catalog__item__title"><a href="" title="Product title" class="catalog__item__title_link">Product Title Product Title</a></div>
+                          <div class="catalog__item__price">
+                            <div class="catalog__item__price__old"><span>6156</span><span>грн</span></div>
+                            <div class="catalog__item__price__new"><span>5000</span><span>грн</span></div>
+                          </div>
+                          <div class="catalog__item__controls">
+                            <button class="catalog__item__controls_cart catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-cart-arrow-down shopping_cart"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                            <button class="catalog__item__controls_favorite catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-heart-o heart_stroke"></i><i aria-hidden="true" class="fa fa-heart heart_fill"></i></button>
+                            <button class="catalog__item__controls_compare catalog__item__controls__btn"><i aria-hidden="true" class="fa fa-balance-scale"></i><i aria-hidden="true" class="fa fa-check-circle icon_check"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="catalog__item__description"><a href="#" class="catalog__item__category link link--dark">Category</a><br><span class="catalog__item__brand">Brand:</span><span class="catalog__item__brand_name"> Apple</span>
+                        <p class="catalog__item__propperty">Предназначен для охраны квартиры, офиса, загородного дома, склад и т.д.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product_details__benefits">
+            <!--include ../blocks/benefits.jade-->
+            
+            
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6">
+            <div class="footer__text">
+              <h5 class="footer__title">Інформація</h5>
+              <div class="footer__title_line"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-6">
+            <div class="footer__inf">
+              <h5 class="footer__title">Меню</h5>
+              <div class="footer__title_line"></div>
+              <ul>
+                <li><a href="#">Вкладиш</a></li>
+                <li><a href="#">Турбіна</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="footer__contact__us">
+              <h5 class="footer__title">Контакти</h5>
+              <div class="footer__title_line"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              <div class="footer__contact__us_adress"><a href="https://www.google.com.ua/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%B0+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%87%D0%B5%D0%BD%D0%BA%D0%B0,+12,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.840362,24.0348563,17z/data=!3m1!4b1!4m5!3m4!1s0x473add6b97489097:0x7410ac7ee9548f5e!8m2!3d49.840362!4d24.037045?hl=uk"><i aria-hidden="true" class="fa fa-map-marker"></i><span>м.Львів вул. Зелена стріт, 21</span></a>
+                <div class="line"></div>
+              </div>
+              <div class="footer__contact__us_phone"><a href="tel:+3801234567"><i aria-hidden="true" class="fa fa-phone"></i><span>+3801234567</span></a>
+                <div class="line"></div>
+              </div>
+              <div class="footer__contact__us_email"><a href="mailto:tb-lviv@Gmail.com"><i aria-hidden="true" class="fa fa-envelope"></i><span>tb-lviv@Gmail.com</span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom_wrap">
+        <div class="container footer__bottom">
+          <div class="footer__bottom_rights">
+            <p>2011-2018 © Всі права захищені</p>
+          </div>
+          <div class="footer__bottom_pay"><img src="img/svg/visa_logo.svg"><img src="img/svg/master_logo.svg"><img src="img/svg/maestro_logo.svg"></div>
+        </div>
+      </div>
+    </footer>
+    <!--/ modals start-->
+    <!--/ modals end-->
+    <!-- java script links-->
+    
+    <!--script(src='js/jquery.validate.min.js')-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--script(src='js/jquery.mask.min.js')-->
+    <!--script(src='js/bs-js/modal.js')-->
+    <!--script(src='js/modals.js')-->
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <!-- -- bx-slider init start---//-->
+    <script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script src="js/main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  </body>
+</html>
