@@ -67,6 +67,9 @@
 .catalog {
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
   //flex-wrap: wrap;
 }
 .catalog__column_first {
@@ -81,6 +84,14 @@
 
 .catalog_controls {
   position: relative;
+  display: flex;
+  align-items: center;
+  .catalog__filter_btn {
+
+  }
+  @media (max-width: 425px) {
+    justify-content: space-around;
+  }
   .catalog_sort {
     display: inline-block;
   }
@@ -186,7 +197,28 @@
 // ---------------- catalog_sidebar start  ------------------
 .catalog__column__sidebar {
   width: 300px;
+  @media (max-width: 768px) {
+    width: 223px;
+  }
+  @media (max-width: 767px) {
+    width: 287px;
+  }
 }
+
+.catalog__column_first {
+  @media (max-width: 767px) {
+    width: 223px;
+    position: absolute;
+    z-index: 10;
+    margin-right: 0;
+    top: 186px;
+  }
+
+}
+
+
+
+
 
 .catalog__filter_btn {
   position: relative;
@@ -194,8 +226,15 @@
   background-color: #f2f2f2;
   border-radius: 4px;
   color: #000;
+
+
+  height: 45px;
+
   &:active {
     box-shadow: none;
+  }
+  &:hover {
+    background-color: #f2f2f2;
   }
   &.active {
     background-color: lighten(@red, 5%);
@@ -217,8 +256,9 @@
     font-size: 16px;
 
   }
-  @media (max-width: 990px) {
-    display: inline-block;
+  @media (max-width: 767px) {
+    //display: inline-block;
+    display: flex;
   }
 }
 
@@ -250,6 +290,7 @@
   a {
     font-weight: 500;
     color: @black;
+    text-decoration: none;
     transition: all 0.2s ease;
     &:hover {
       color: @red;
@@ -309,8 +350,10 @@
       padding-left: 15px;
       margin: 0;
       li {
+        list-style-type: none;
         a {
           color: @black;
+          text-decoration: none;
           &:hover {
             text-decoration: none;
             color: @red;
@@ -342,9 +385,15 @@
 }
 .catalog__filter {
   margin-top: 20px;
+  @media screen and (max-width: 767px) {
+    margin-top: 0;
+  }
   .catalog__filter__price {
     margin-bottom: 20px;
     background-color: @gray-category-title;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 0;
+    }
     .catalog__filter_body {
       .price_slider {
         width:80%;
@@ -381,6 +430,7 @@
           border: 1px solid @black;
           background-color: @gray-category-title;
           margin-left: 10px;
+          padding: 6px 12px;
           span {
             color: @black;
           }
@@ -396,11 +446,15 @@
     }
   }
   .catalog__filter__brand {
+    .brand_btn {
+      padding: 3px;
+    }
     .catalog__filter_body {
       background-color: @gray-category-title;
       padding-top: 40px;
       padding-left: 20px;
       padding-bottom: 40px;
+      padding-right: 20px;
       button {
         margin-bottom: 15px;
         margin-right: 5px;
@@ -435,10 +489,10 @@
 
 
   padding: 15px;
-  //width: 33.333%;
-  width: 300px;
+  width: 33.333%;
+  //width: 300px;
   @media (min-width: @screen-lg) {
-    width: 33.333%;
+    width: 300px;
   }
   //box-shadow: 0px 0px 1px 1px rgba(173,168,173,1);
   border: 1px solid gray;
@@ -455,6 +509,7 @@
   }
   @media (max-width: @screen-md-max) {
     padding: 10px;
+    width: 50%;
   }
   @media (max-width: @screen-xs-max) {
     width: 50%;

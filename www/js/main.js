@@ -52,7 +52,7 @@ function removeClass(str, clas) {
     return str;
 }
 
-
+//do dropdown
 $('.dropdown-content a').on("click", function () {
     $('.dropbtn__lang').html(this.innerHTML);
 });
@@ -87,6 +87,7 @@ $('#myTabs a').click(function (e) {
 });
 //--------------------------- end ---------------------------
 
+//slider for product in product detail
 $(document).ready(function(){
     $('.related_products__slider').bxSlider({
         slideWidth: 300,
@@ -162,8 +163,8 @@ $(function(){
     });
 });
 
-// catalog`s pizdzheni skriptu
 
+// catalog`s pizdzheni skriptu
 $('.catalog__filter_btn').on('click', function () {
     $(this).toggleClass('active');
 });
@@ -241,6 +242,13 @@ function check_sidebar() {
         addClass(sidebar, 'in');
     }
 }
+
+//fix opened catalog sidebar after reload page
+$(window).on('load', function(){
+    $('#collapseSidebar').toggleClass('in');
+});
+/*----------- catalog_sidebar resize checker end ----------------------*/
+
 
 //mobile menu
 $('.show-mobile-menu-btn').on('click', function () {
