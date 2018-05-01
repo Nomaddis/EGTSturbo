@@ -8473,39 +8473,45 @@ header {
 .main-slider__item {
   height: 400px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\000033}}
+  .main-slider__item {
+    height: 323px;
+  }
+}
+@media screen and (max-width: 425px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\000036}}
   .main-slider__item {
     height: 175px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000310}}
 .main-slider__item {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000313}}
 .main-slider-wrap {
   overflow: hidden;
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000312}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000315}}
   .main-slider-wrap {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000318}}
 .main-slider-wrap .slick-dots {
   bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000320}}
 .main-slider-wrap .slick-dots li.slick-active button:before {
   color: red;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000323}}
 .main-slider-wrap .slick-dots li button:before {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000327}}
 .main-slider-wrap .slick-arrow {
   background: rgba(0, 0, 0, 0.5);
   z-index: 10;
@@ -8513,16 +8519,16 @@ header {
   width: 27px;
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000329}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000332}}
   .main-slider-wrap .slick-arrow {
     background-color: transparent;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000335}}
 .main-slider-wrap .slick-arrow:before {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000338}}
 .main-slider-wrap .slick-arrow:after {
   position: absolute;
   top: 45px;
@@ -8542,22 +8548,22 @@ header {
   -moz-transition: all 0.5s ease;
   -wekit-transition: all 0.5s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000358}}
 .main-slider-wrap .slick-next {
   right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000363}}
 .main-slider-wrap .slick-prev {
   left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000365}}
 .main-slider-wrap .slick-prev:after {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
   right: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000372}}
 .slider-desc {
   position: absolute;
   z-index: 20;
@@ -8574,7 +8580,7 @@ header {
           align-items: center;
   padding-left: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000382}}
 .desc__title {
   white-space: nowrap;
   background-color: #000000;
@@ -8596,7 +8602,7 @@ header {
   color: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\0000399}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003102}}
   .desc__title {
     font-size: 37px;
     line-height: 30px;
@@ -8604,7 +8610,7 @@ header {
     max-width: 336px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003109}}
 .desc__text {
   white-space: nowrap;
   background-color: #fd5f3d;
@@ -8633,7 +8639,7 @@ header {
   margin-bottom: 35px;
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003128}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003131}}
   .desc__text {
     font-size: 29px;
     line-height: 20px;
@@ -8641,28 +8647,28 @@ header {
     max-width: 569px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003138}}
 .desc-btn {
   display: inline-block;
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003137}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003140}}
   .desc-btn {
     padding: 5px 11px;
     font-size: 17px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003144}}
 .desc-btn:hover {
   background-color: #252525;
   color: #FFFFFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003152}}
 .promo-banners-container {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003156}}
 .promo-banner {
   position: relative;
   overflow: hidden;
@@ -8674,7 +8680,7 @@ header {
   -webkit-transition: 512ms ease-in-out;
           transition: 512ms ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003165}}
 .promo-banner .title-wrapper {
   position: absolute;
   z-index: 2;
@@ -8685,11 +8691,11 @@ header {
   font-family: "Oswald", Arial, serif;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003174}}
 .promo-banner .title-wrapper span {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003177}}
 .promo-banner .title-wrapper .big {
   margin: 0 0 13px;
   font-size: 25px;
@@ -8697,20 +8703,32 @@ header {
   line-height: 29px;
   color: #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003181}}
+@media screen and (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003183}}
+  .promo-banner .title-wrapper .big {
+    font-size: 16px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003187}}
 .promo-banner .title-wrapper .small {
   font-size: 17px;
   font-weight: 300;
-  color: #fa5d3b;
+  color: #FA5D3B;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003187}}
+@media screen and (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003191}}
+  .promo-banner .title-wrapper .small {
+    font-size: 14px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003196}}
 .promo-banner img {
   -webkit-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
           transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
   position: relative;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003201}}
 .promo-banner:before {
   color: #ebebeb;
   content: "";
@@ -8725,65 +8743,65 @@ header {
   -webkit-transition: 0.3s all ease;
           transition: 0.3s all ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003215}}
 .promo-banner:hover {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003217}}
 .promo-banner:hover img {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003220}}
 .promo-banner:hover:before {
   box-shadow: inset 0px 0px 50px 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003227}}
 .wheels-banner {
   background-color: #fa5d3b;
   padding: 25px 15px;
 }
 @media screen and (max-width: 975px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003222}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003231}}
   .wheels-banner {
     padding: 15px 5px;
   }
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003225}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003234}}
   .wheels-banner {
     padding: 25px 15px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003238}}
 .wheels-img-wrap {
   padding-left: 53px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003240}}
 .wheels-img-wrap img {
   width: 400px;
 }
 @media screen and (max-width: 975px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003235}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003244}}
   .wheels-img-wrap img {
     width: 325px;
   }
 }
 @media screen and (max-width: 975px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003240}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003249}}
   .wheels-img-wrap img {
     width: 325px;
   }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003244}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003253}}
   .wheels-img-wrap {
     padding-left: 5px;
   }
 }
 @media screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003247}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003256}}
   .wheels-img-wrap {
     padding-left: 0;
     display: -webkit-box;
@@ -8797,12 +8815,12 @@ header {
   }
 }
 @media screen and (max-width: 375px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003253}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003262}}
   .wheels-img-wrap img {
     width: 285px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003267}}
 .wheels-img-text-wrap {
   color: #FFFFFF;
   display: -webkit-box;
@@ -8815,14 +8833,14 @@ header {
           align-items: center;
   height: 375px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003272}}
 .wheels-img-text-wrap h1 {
   font-weight: 800;
   font-size: 10rem;
   margin: 0;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003279}}
 .wheels-img-text-wrap p {
   display: inline-block;
   vertical-align: middle;
@@ -8833,7 +8851,7 @@ header {
   line-height: 1.625;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003289}}
 .wheels-img-text-wrap h2 {
   font-weight: 800;
   font-size: 7rem;
@@ -8842,7 +8860,7 @@ header {
   display: inline-block;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003297}}
 .wheels-img-text-wrap .wheels-btn {
   margin-top: 20px !important;
   background-color: #252525;
@@ -8854,28 +8872,28 @@ header {
   text-transform: uppercase;
   font-family: "Oswald", Arial, serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003306}}
 .wheels-img-text-wrap .wheels-btn:hover {
   color: #fa5d3b;
 }
 @media screen and (max-width: 975px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003302}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003311}}
   .wheels-img-text-wrap h1 {
     font-size: 8rem;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003305}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003314}}
   .wheels-img-text-wrap h2 {
     font-size: 5rem;
   }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003310}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003319}}
   .wheels-img-text-wrap h1 {
     font-size: 7rem;
   }
 }
 @media screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003314}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003323}}
   .wheels-img-text-wrap {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8887,7 +8905,7 @@ header {
             justify-content: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003328}}
 .from-only {
   display: block;
   -webkit-transform: scale(1, 1.6);
@@ -8897,24 +8915,24 @@ header {
   color: #252525;
   font-family: "Oswald", Arial, serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003338}}
 .our-client {
   padding-top: 70px;
   padding-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003343}}
 .slider-title {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003354}}
 .brands-slider .brands-slider__item {
   height: 130px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003357}}
 .brands-slider .brands-slider__item .item-inner {
   height: 100%;
   display: -webkit-inline-box;
@@ -8931,11 +8949,11 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003365}}
 .brands-slider .slider-img-wrap {
   width: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003367}}
 .brands-slider .slider-img-wrap .item-inner {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8946,7 +8964,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003376}}
 .call-form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8961,7 +8979,7 @@ header {
           flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003371}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003380}}
   .call-form {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -8969,7 +8987,7 @@ header {
             justify-content: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003385}}
 .call-form__left p {
   color: #363636;
   text-transform: uppercase;
@@ -8980,7 +8998,7 @@ header {
   font-family: "Open Sans", Arial, serif;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003394}}
 .call-form__left p span {
   color: #fa5d3b;
   margin-right: 4px;

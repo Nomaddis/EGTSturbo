@@ -1,5 +1,8 @@
 .main-slider__item {
   height: 400px;
+  @media screen and (max-width: 768px) {
+    height: 323px;
+  }
   @media screen and (max-width: 425px) {
     height: 175px;
   }
@@ -177,11 +180,17 @@
       font-weight: 400;
       line-height: 29px;
       color: #000000;
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+      }
     }
     .small {
       font-size: 17px;
       font-weight: 300;
-      color: #FA5D3B
+      color: #FA5D3B;
+      @media screen and (max-width: 768px) {
+      font-size: 14px;
+      }
     }
   }
   img {

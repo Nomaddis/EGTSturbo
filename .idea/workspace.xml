@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2813ebbf-c68f-4b3f-b371-47f120215a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade" afterPath="$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/contact-us.html" afterPath="$PROJECT_DIR$/www/contact-us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/all.css" afterPath="$PROJECT_DIR$/www/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/contact-us.less" afterPath="$PROJECT_DIR$/www/less/_includes/contact-us.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/header.less" afterPath="$PROJECT_DIR$/www/less/_includes/header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/landing.less" afterPath="$PROJECT_DIR$/www/less/_includes/landing.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/all.less" afterPath="$PROJECT_DIR$/www/less/all.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +39,8 @@
       <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/less/_includes/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="185" column="19" lean-forward="true" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="190" column="4" lean-forward="false" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -64,8 +59,8 @@
       <file leaf-file-name="landing.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/less/_includes/landing.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="225" column="23" lean-forward="false" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
+            <state relative-caret-position="324">
+              <caret line="192" column="6" lean-forward="false" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -105,9 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>earch-containe</find>
-      <find>line-height: 1.42857143;</find>
-      <find>.cart</find>
       <find>.dropdown-cart</find>
       <find>header-menu</find>
       <find>form-menu-container</find>
@@ -135,6 +127,9 @@
       <find>our-contacts__address__item_address</find>
       <find>.our-contacts__form</find>
       <find>.menu-buttons</find>
+      <find>.wheels-banner</find>
+      <find>big</find>
+      <find>main-slider-wrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -623,12 +618,12 @@
       <workItem from="1525078944281" duration="11708000" />
       <workItem from="1525105763412" duration="7603000" />
       <workItem from="1525166885734" duration="15231000" />
-      <workItem from="1525193657677" duration="9789000" />
+      <workItem from="1525193657677" duration="11444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148773000" />
+    <option name="totallyTimeSpent" value="150428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -891,7 +886,7 @@
         <state relative-caret-position="136">
           <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <marker date="1525204271008" expanded="true" signature="0:2" ph="/*...*/" />
+            <marker date="1525206075731" expanded="true" signature="0:2" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -1018,16 +1013,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/less/_includes/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="185" column="19" lean-forward="true" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="190" column="4" lean-forward="false" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/less/_includes/landing.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="225" column="23" lean-forward="false" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
+        <state relative-caret-position="324">
+          <caret line="192" column="6" lean-forward="false" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
           <folding />
         </state>
       </provider>
