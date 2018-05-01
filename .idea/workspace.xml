@@ -3,19 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2813ebbf-c68f-4b3f-b371-47f120215a8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/_includes/catalog/catalog.jade" afterPath="$PROJECT_DIR$/template/_includes/catalog/catalog.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/_includes/head.jade" afterPath="$PROJECT_DIR$/template/_includes/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/catalog.html" afterPath="$PROJECT_DIR$/www/catalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade" afterPath="$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/contact-us.html" afterPath="$PROJECT_DIR$/www/contact-us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/all.css" afterPath="$PROJECT_DIR$/www/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/catalog.less" afterPath="$PROJECT_DIR$/www/less/_includes/catalog.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/default.less" afterPath="$PROJECT_DIR$/www/less/_includes/default.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/contact-us.less" afterPath="$PROJECT_DIR$/www/less/_includes/contact-us.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/header.less" afterPath="$PROJECT_DIR$/www/less/_includes/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/product_details.less" afterPath="$PROJECT_DIR$/www/less/_includes/product_details.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/_includes/landing.less" afterPath="$PROJECT_DIR$/www/less/_includes/landing.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/all.less" afterPath="$PROJECT_DIR$/www/less/all.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/main.html" afterPath="$PROJECT_DIR$/www/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/product_details.html" afterPath="$PROJECT_DIR$/www/product_details.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,36 +21,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/_includes/head.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/_includes/header/header.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/less/_includes/header.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="217" column="20" lean-forward="true" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="catalog.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/_includes/catalog/catalog.jade">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,47 +41,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/less/_includes/footer.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/less/all.less">
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/less/_includes/header.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <caret line="185" column="19" lean-forward="true" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/less/_includes/default.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="149" column="9" lean-forward="true" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js-links.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/_includes/js-links.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -127,14 +61,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="landing.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/less/_includes/landing.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="225" column="23" lean-forward="false" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/less/all.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="98" column="36" lean-forward="true" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-us.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-us.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/less/_includes/contact-us.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.slick-arrow</find>
-      <find>1.42857143</find>
-      <find>sea</find>
-      <find>search-btn</find>
       <find>earch-containe</find>
       <find>line-height: 1.42857143;</find>
       <find>.cart</find>
@@ -161,6 +131,10 @@
       <find>btn_filter_price</find>
       <find>catalog__filter_body-price</find>
       <find>catalog__filter_btn</find>
+      <find>our-contacts__address__item</find>
+      <find>our-contacts__address__item_address</find>
+      <find>.our-contacts__form</find>
+      <find>.menu-buttons</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,18 +163,20 @@
         <option value="$PROJECT_DIR$/template/contact-us.jade" />
         <option value="$PROJECT_DIR$/template/index.jade" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/www/less/_includes/landing.less" />
         <option value="$PROJECT_DIR$/template/_includes/header/header.jade" />
         <option value="$PROJECT_DIR$/www/less/_includes/footer.less" />
         <option value="$PROJECT_DIR$/www/css/all.css" />
         <option value="$PROJECT_DIR$/www/less/_includes/product_details.less" />
-        <option value="$PROJECT_DIR$/www/less/all.less" />
-        <option value="$PROJECT_DIR$/www/less/_includes/header.less" />
         <option value="$PROJECT_DIR$/www/less/_includes/default.less" />
         <option value="$PROJECT_DIR$/template/_includes/catalog/catalog.jade" />
         <option value="$PROJECT_DIR$/template/_includes/head.jade" />
         <option value="$PROJECT_DIR$/www/less/_includes/catalog.less" />
         <option value="$PROJECT_DIR$/www/js/main.js" />
+        <option value="$PROJECT_DIR$/www/less/all.less" />
+        <option value="$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade" />
+        <option value="$PROJECT_DIR$/www/less/_includes/contact-us.less" />
+        <option value="$PROJECT_DIR$/www/less/_includes/header.less" />
+        <option value="$PROJECT_DIR$/www/less/_includes/landing.less" />
       </list>
     </option>
   </component>
@@ -490,6 +466,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="contact-us" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EGTSturbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EGTSturbo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -625,12 +623,12 @@
       <workItem from="1525078944281" duration="11708000" />
       <workItem from="1525105763412" duration="7603000" />
       <workItem from="1525166885734" duration="15231000" />
-      <workItem from="1525193657677" duration="7901000" />
+      <workItem from="1525193657677" duration="9789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146885000" />
+    <option name="totallyTimeSpent" value="148773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -827,20 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/less/_includes/contact-us.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/contact-us.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -902,20 +886,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/less/_includes/landing.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <marker date="1525201937461" expanded="true" signature="0:2" ph="/*...*/" />
+            <marker date="1525204271008" expanded="true" signature="0:2" ph="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -960,14 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/less/_includes/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="217" column="20" lean-forward="true" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/less/_includes/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -980,14 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="149" column="9" lean-forward="true" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/less/all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1016,6 +976,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/less/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="98" column="36" lean-forward="true" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/less/_includes/catalog.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1024,10 +1000,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+    <entry file="file://$PROJECT_DIR$/template/_includes/contact-us/contact-us.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/less/_includes/contact-us.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/less/_includes/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="185" column="19" lean-forward="true" selection-start-line="185" selection-start-column="19" selection-end-line="185" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/less/_includes/landing.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="225" column="23" lean-forward="false" selection-start-line="225" selection-start-column="23" selection-end-line="225" selection-end-column="23" />
           <folding />
         </state>
       </provider>

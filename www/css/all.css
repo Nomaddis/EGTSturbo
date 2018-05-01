@@ -8021,10 +8021,15 @@ header {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 55%;
+}
+@media screen and (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003185}}
+  .menu-buttons {
+    width: 55%;
+  }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003188}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003191}}
   .main-menu {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8036,31 +8041,31 @@ header {
             align-items: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003195}}
 .main-menu a {
   padding: 0 15px;
   line-height: 52px;
   color: white;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003200}}
 .main-menu a:hover {
   background-color: #fa5d3b;
 }
 @media screen and (max-width: 968px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003202}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003205}}
   .main-menu ul {
     padding-left: 0;
   }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003207}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003210}}
   .main-menu .nav__item {
     display: block;
   }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003213}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003216}}
   .header-menu {
     background-color: #252525;
     height: 120px;
@@ -8080,13 +8085,13 @@ header {
     -webkit-transition: 0.3s all ease;
             transition: 0.3s all ease;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003227}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003230}}
   .header-menu.active {
     top: 63px;
   }
 }
 /*==================== SEARCH FORM ===================*/
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003239}}
 .search-container .search-btn button {
   font-size: 19px;
   padding: 6px 10px;
@@ -8094,16 +8099,16 @@ header {
   background-color: #FFFFFF;
 }
 @media screen and (max-width: 628px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003242}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003245}}
   .search-container .search-btn {
     z-index: 10;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003244}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003247}}
   .search-container .search-btn button {
     background-color: transparent;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003254}}
 .mobile-search-show {
   background-color: transparent;
   font-size: 19px;
@@ -8113,21 +8118,21 @@ header {
           transition: 0.3s all ease;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003261}}
 .mobile-search-show.active {
   font-size: 22px;
 }
 @media screen and (max-width: 628px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003262}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003265}}
   .mobile-search-show {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003270}}
 .form-menu-container {
   box-sizing: border-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003273}}
 .form-menu-container form {
   max-width: 310px;
   padding: 14px 0;
@@ -8137,11 +8142,11 @@ header {
   -webkit-transition: 0.3s all ease;
           transition: 0.3s all ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003280}}
 .form-menu-container form.active {
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003284}}
 .form-menu-container form input {
   box-shadow: none;
   padding: 1px 19px;
@@ -8163,7 +8168,7 @@ header {
   height: 37px;
 }
 @media screen and (max-width: 628px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003308}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003311}}
   .search-container form {
     width: 300px;
     right: -100%;
@@ -8173,13 +8178,13 @@ header {
   }
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003316}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003319}}
   .search-container form {
     width: 100%;
   }
 }
 @media screen and (max-width: 628px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003320}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003323}}
   .search-container form input {
     position: absolute;
     z-index: 3;
@@ -8188,7 +8193,7 @@ header {
     border-right: 2px solid #252525;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003341}}
 .input-group-btn {
   position: relative;
   width: 1%;
@@ -8196,7 +8201,7 @@ header {
   vertical-align: middle;
   display: table-cell;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003349}}
 .input-group-btn button {
   font-size: 12px;
   height: 37px;
@@ -8216,12 +8221,12 @@ header {
   margin-bottom: 0;
 }
 @media screen and (max-width: 375px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003360}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003363}}
   .input-group-btn button {
     padding: 6px 15px !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003369}}
 .input-group-btn {
   position: relative;
   width: 1%;
@@ -8229,7 +8234,7 @@ header {
   vertical-align: middle;
   display: table-cell;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003377}}
 .input-group-btn button {
   font-size: 12px;
   height: 37px;
@@ -8249,54 +8254,54 @@ header {
   margin-bottom: 0;
 }
 /* ================ CART ========================= */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003417}}
 .dropdown-cart {
   margin-left: 30px;
 }
 @media screen and (max-width: 320px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003416}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003419}}
   .dropdown-cart {
     margin-left: 5px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003426}}
 .dropdown-content_cart {
   width: 300px;
   right: 0px;
   border-top-width: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003430}}
 .dropdown-content_cart ul {
   padding: 10px 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003433}}
 .dropdown-content_cart li {
   list-style-type: none;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003437}}
 .dropdown-content_cart li a {
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003441}}
 .dropdown-content_cart .cart-list {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003442}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003445}}
 .dropdown-content_cart.active .cart-list {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003448}}
 .dropdown-content_cart.active .empty-cart-msg {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003453}}
 .empty-cart-msg {
   color: #505050;
   padding: 10px;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003458}}
 .cart {
   border: 3px solid #464646;
   border-radius: 100%;
@@ -8316,35 +8321,35 @@ header {
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003466}}
 .cart a {
   padding: 9px 13px;
   font-size: 22px;
   color: white;
 }
 @media screen and (max-width: 875px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003467}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003470}}
   .cart a {
     padding: 2px 6px;
   }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003470}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003473}}
   .cart a {
     padding: 2px 6px !important;
   }
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003473}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003476}}
   .cart a {
     padding: 0px 4px !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003480}}
 .cart:hover {
   background-color: #fa5d3b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003481}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003484}}
 .cart-items {
   position: absolute;
   display: block;
@@ -8360,30 +8365,30 @@ header {
   color: #fff;
 }
 @media screen and (max-width: 875px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003496}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003499}}
   .cart-items {
     padding: 3px 5px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003507}}
 .show-mobile {
   z-index: 1000;
   margin-left: 20px;
   display: none;
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003508}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003511}}
   .show-mobile {
     display: block;
   }
 }
 @media screen and (max-width: 320px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003511}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003514}}
   .show-mobile {
     margin-left: 5px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003518}}
 .show-mobile-menu-btn {
   z-index: 1000;
   background-color: transparent;
@@ -8397,13 +8402,13 @@ header {
   cursor: pointer;
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003526}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003529}}
   .show-mobile-menu-btn {
     width: 37px;
     height: 37px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003533}}
 .show-mobile-menu-btn span {
   width: 100%;
   height: 2px;
@@ -8411,7 +8416,7 @@ header {
   position: relative;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003540}}
 .show-mobile-menu-btn span:before,
 .show-mobile-menu-btn span:after {
   content: '';
@@ -8423,42 +8428,42 @@ header {
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003549}}
 .show-mobile-menu-btn span:before {
   top: -14px;
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003548}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003551}}
   .show-mobile-menu-btn span:before {
     top: -13px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003552}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003555}}
 .show-mobile-menu-btn span:after {
   top: 14px;
 }
 @media screen and (max-width: 425px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003554}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003557}}
   .show-mobile-menu-btn span:after {
     top: 13px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003563}}
 .show-mobile-menu-btn.active span {
   background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003562}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003565}}
 .show-mobile-menu-btn.active span:before,
 .show-mobile-menu-btn.active span:after {
   top: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003568}}
 .show-mobile-menu-btn.active span:before {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/header\.less}line{font-family:\00003571}}
 .show-mobile-menu-btn.active span:after {
   -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
@@ -8745,34 +8750,40 @@ header {
     padding: 15px 5px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003226}}
+@media screen and (max-width: 425px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003225}}
+  .wheels-banner {
+    padding: 25px 15px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003229}}
 .wheels-img-wrap {
   padding-left: 53px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003231}}
 .wheels-img-wrap img {
   width: 400px;
 }
 @media screen and (max-width: 975px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003232}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003235}}
   .wheels-img-wrap img {
     width: 325px;
   }
 }
 @media screen and (max-width: 975px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003237}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003240}}
   .wheels-img-wrap img {
     width: 325px;
   }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003241}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003244}}
   .wheels-img-wrap {
     padding-left: 5px;
   }
 }
 @media screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003244}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003247}}
   .wheels-img-wrap {
     padding-left: 0;
     display: -webkit-box;
@@ -8786,12 +8797,12 @@ header {
   }
 }
 @media screen and (max-width: 375px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003250}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003253}}
   .wheels-img-wrap img {
     width: 285px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003258}}
 .wheels-img-text-wrap {
   color: #FFFFFF;
   display: -webkit-box;
@@ -8804,14 +8815,14 @@ header {
           align-items: center;
   height: 375px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003263}}
 .wheels-img-text-wrap h1 {
   font-weight: 800;
   font-size: 10rem;
   margin: 0;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003270}}
 .wheels-img-text-wrap p {
   display: inline-block;
   vertical-align: middle;
@@ -8822,7 +8833,7 @@ header {
   line-height: 1.625;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003280}}
 .wheels-img-text-wrap h2 {
   font-weight: 800;
   font-size: 7rem;
@@ -8831,7 +8842,7 @@ header {
   display: inline-block;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003288}}
 .wheels-img-text-wrap .wheels-btn {
   margin-top: 20px !important;
   background-color: #252525;
@@ -8843,28 +8854,28 @@ header {
   text-transform: uppercase;
   font-family: "Oswald", Arial, serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003297}}
 .wheels-img-text-wrap .wheels-btn:hover {
   color: #fa5d3b;
 }
 @media screen and (max-width: 975px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003299}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003302}}
   .wheels-img-text-wrap h1 {
     font-size: 8rem;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003302}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003305}}
   .wheels-img-text-wrap h2 {
     font-size: 5rem;
   }
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003307}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003310}}
   .wheels-img-text-wrap h1 {
     font-size: 7rem;
   }
 }
 @media screen and (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003311}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003314}}
   .wheels-img-text-wrap {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8876,7 +8887,7 @@ header {
             justify-content: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003319}}
 .from-only {
   display: block;
   -webkit-transform: scale(1, 1.6);
@@ -8886,24 +8897,24 @@ header {
   color: #252525;
   font-family: "Oswald", Arial, serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003329}}
 .our-client {
   padding-top: 70px;
   padding-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003334}}
 .slider-title {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003345}}
 .brands-slider .brands-slider__item {
   height: 130px;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003348}}
 .brands-slider .brands-slider__item .item-inner {
   height: 100%;
   display: -webkit-inline-box;
@@ -8920,11 +8931,11 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003356}}
 .brands-slider .slider-img-wrap {
   width: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003358}}
 .brands-slider .slider-img-wrap .item-inner {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8935,7 +8946,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003367}}
 .call-form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8950,7 +8961,7 @@ header {
           flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003368}}
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003371}}
   .call-form {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -8958,7 +8969,7 @@ header {
             justify-content: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003376}}
 .call-form__left p {
   color: #363636;
   text-transform: uppercase;
@@ -8969,7 +8980,7 @@ header {
   font-family: "Open Sans", Arial, serif;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/landing\.less}line{font-family:\00003385}}
 .call-form__left p span {
   color: #fa5d3b;
   margin-right: 4px;
@@ -10740,6 +10751,102 @@ header {
   top: 0;
   left: 0;
   background: -webkit-linear-gradient(left, #ffffff, #ffffff 60%, rgba(255, 255, 255, 0.8) 80%, rgba(255, 255, 255, 0));
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\000031}}
+.our-contacts__address__item {
+  color: #252525;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 18px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\000033}}
+.our-contacts__address__item i,
+.our-contacts__address__item h6 {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\000036}}
+.our-contacts__address__item span,
+.our-contacts__address__item a {
+  display: block;
+  margin-left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000311}}
+.our-contacts__address__item i {
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000314}}
+.our-contacts__address__item a {
+  color: #252525;
+  -webkit-transition: 0.3s all ease;
+          transition: 0.3s all ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000317}}
+.our-contacts__address__item a:hover {
+  color: #fa5d3b;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000325}}
+.our-contacts__form {
+  margin-top: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000327}}
+.our-contacts__form .meta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000331}}
+.our-contacts__form .meta input {
+  width: 40%;
+  border: 1px solid #848484;
+  color: #848484;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000338}}
+.our-contacts__form textarea {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #848484;
+  color: #848484;
+  padding: 10px;
+}
+@media (max-width: 375px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000346}}
+  .our-contacts__form button {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000351}}
+.our-contacts__map {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000354}}
+.contact-map {
+  position: relative;
+  margin-bottom: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000357}}
+.contact-map iframe {
+  position: absolute;
+  top: 0;
+  opacity: 0.8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000363}}
+.contact-map__filter {
+  pointer-events: none;
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/contact-us\.less}line{font-family:\0000375}}
+.contact-us-text p {
+  text-indent: 40px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/dev\/EGTSturbo\/www\/less\/_includes\/benefits\.less}line{font-family:\000032}}
 .main-page__benefits {
