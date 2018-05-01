@@ -59,6 +59,26 @@
 //----------------- bxslider end------------------
 
 //----------------- catalog start------------------
+.catalog-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  //flex-wrap: wrap;
+}
+.catalog__column_first {
+  margin-right: 30px;
+  //background-color: red;
+}
+.catalog_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .catalog_controls {
   position: relative;
   .catalog_sort {
@@ -164,6 +184,10 @@
 }
 
 // ---------------- catalog_sidebar start  ------------------
+.catalog__column__sidebar {
+  width: 300px;
+}
+
 .catalog__filter_btn {
   position: relative;
   display: none;
@@ -278,7 +302,6 @@
   }
 }
 .panel-collapse {
-
   .panel-body {
     padding-left: 25px;
     position: relative;
@@ -406,10 +429,17 @@
 }
 
 //==================== Catalog list start ==========================
+
 .catalog__item_wrap {
-  float: left;
+  //float: left;
+
+
   padding: 15px;
-  width: 33.333%;
+  //width: 33.333%;
+  width: 300px;
+  @media (min-width: @screen-lg) {
+    width: 33.333%;
+  }
   //box-shadow: 0px 0px 1px 1px rgba(173,168,173,1);
   border: 1px solid gray;
   margin-left: -1px;
@@ -706,7 +736,7 @@
     }
   }
   .catalog__item__new {
-    background-color: @blue-new;
+    background-color: #4cbe40;
     position: relative;
     &:before {
       content: '';
@@ -714,8 +744,8 @@
       left: 0;
       top: 100%;
       border: 2px solid transparent;
-      border-left: 1px solid @blue-new;
-      border-top: 1px solid @blue-new;
+      border-left: 1px solid #4cbe40;
+      border-top: 1px solid #4cbe40;
     }
   }
   .catalog__item__sale {
@@ -730,6 +760,9 @@
       border-left: 1px solid @orange-sale;
       border-top: 1px solid @orange-sale;
     }
+    span {
+      color: white;
+    }
   }
   .catalog__item__hot {
     background-color: @red;
@@ -743,6 +776,9 @@
       border-left: 1px solid @red;
       border-top: 1px solid @red;
     }
+  }
+  span {
+    color: white;
   }
 
 }

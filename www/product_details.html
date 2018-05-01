@@ -17,10 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="shortcut icon" href="img/logo.png">
     <!-- - font awesome-->
-    <link rel="stylesheet" href="packages/font-awesome/css/font-awesome.min.css"><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="packages/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -44,8 +41,8 @@
               </div>
               <div class="top-menu_right top-menu__item">
                 <ul class="nav-list">
-                  <li class="nav__item"><a href="#" title="nav item">Каталог</a></li>
-                  <li class="nav__item"><a href="#" title="nav item">Про нас</a></li>
+                  <li class="nav__item"><a href="catalog.html" title="nav item">Каталог</a></li>
+                  <li class="nav__item"><a href="contact-us.html" title="nav item">Про нас</a></li>
                   <!--li.nav__item-->
                   <!--    a(href="#" title="nav item") some item-->
                 </ul>
@@ -71,6 +68,7 @@
                 </div>
                 <div class="menu-buttons">
                   <div class="form-menu-container search-container">
+                    <button class="mobile-search-show"><i class="fa fa-search"></i></button>
                     <form>
                       <input type="text" placeholder="шукати...">
                       <div class="input-group-btn search-btn">
@@ -85,7 +83,7 @@
                   <!--            i.fa.fa-search-->
                   <div class="dropdown-cart">
                     <div class="dropdown">
-                      <div class="dropbtn cart"><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+                      <div class="dropbtn cart"><a href="#"><i class="fa fa-shopping-cart"></i></a></div>
                       <div class="dropdown-content dropdown-content_cart"><span class="empty-cart-msg">Ваш кошик пустий.</span>
                         <ul class="cart-list">
                           <li><a href="#">first element</a></li>
@@ -744,6 +742,10 @@
     <script src="js/bootstrap-select.min.js"></script>
     <!-- -- bx-slider init start---//-->
     <script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <!-- -- bx-slider init end---//-->
+    <!-- -- jquery - UI init end---//-->
+    <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <!-- -- jquery - UI init end---//-->
     <script src="js/main.js"></script>
     <!--script(defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js")-->
     <script src="js/bs-js/collapse.js"></script>

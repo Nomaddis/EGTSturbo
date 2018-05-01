@@ -1,3 +1,56 @@
+// -- toggle classes of HTML element --
+function toggleClass(str, clas) {
+    let str_mod = str;
+    let tempArr = str.className.split(' ');
+    existe = false;
+    tempArr.forEach(function (item, i, array) {
+        if (item === clas) {
+            array.splice(i, 1);
+            existe = true;
+        }
+    });
+    if (!existe) {
+        str = addClass(str, clas);
+    } else {
+        str = tempArr.join(' ');
+    }
+    str_mod.className = str;
+    return str;
+}
+// -- add class to HTML element --
+function addClass(str, clas) {
+    let str_mod = str;
+    str = str.className;
+    let tempArr = str.split(' ');
+    let match = false;
+    tempArr.forEach(function (item, i) {
+        if (item === clas) {
+            match = true;
+        }
+    });
+    if (match === false) {
+        tempArr.push(clas);
+        str = tempArr.join(' ');
+    }
+    str_mod.className = str;
+    return str;
+}
+
+
+// -- remove class to HTML element --
+function removeClass(str, clas) {
+    let str_mod = str;
+    str = str.className;
+    var tempArr = str.split(' ');
+    tempArr.forEach(function (item, i) {
+        if (item === clas) {
+            tempArr.splice(i, 1);
+        }
+    });
+    str = tempArr.join(' ');
+    str_mod.className = str;
+    return str;
+}
 
 
 $('.dropdown-content a').on("click", function () {
@@ -9,11 +62,30 @@ $('.product_details__main__slider').bxSlider({
     pagerCustom: '#bx-pager',
     controls: false
 });
+
+//------------------------ product detail selectors-------------
+$('.selectpicker_color').selectpicker({
+    style: 'color_selector',
+    size: 'auto'
+});
+$('.selectpicker_size').selectpicker({
+    style: 'size_selector',
+    size: 'auto'
+});
+$('.selectpicker_qty').selectpicker({
+    style: 'selectpicker_qty',
+    size: 'auto'
+});
+$('.add-to-whishlist').on('click', function () {
+    $('.heart_wishlist').toggleClass('active');
+});
+
 //---------------------- product detail tabs ------------------
 $('#myTabs a').click(function (e) {
     e.preventDefault();
     $(this).tab('show')
 });
+//--------------------------- end ---------------------------
 
 $(document).ready(function(){
     $('.related_products__slider').bxSlider({
@@ -26,7 +98,7 @@ $(document).ready(function(){
     });
 });
 
-
+//================= main slider =====================
 $(document).ready(function(){
     $('.main-slider').slick({
         dots: true,
@@ -34,7 +106,9 @@ $(document).ready(function(){
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        fade: true,
+        easing: 'easeOutCirc',
     });
     $('.brands-slider').slick({
         infinite: true,
@@ -130,17 +204,17 @@ $('.catalog__item__controls__btn').on('click', function () {
 
 
 //-----------------vvvvvvvvvvvvvvvvv Price slider start vvvvvvvvvvvvvv----------------
-// $(".price_slider").slider({
-//     range:  true,
-//     min:    0,
-//     max:    10000,
-//     values: [0, 10000],
-//     slide: function(e, ui) {
-//         //console.log(ui.value);
-//         $('#price_min').val(ui.values[0]);
-//         $('#price_max').val(ui.values[1]);
-//     }
-// });
+$(".price_slider").slider({
+    range:  true,
+    min:    0,
+    max:    10000,
+    values: [0, 10000],
+    slide: function(e, ui) {
+        //console.log(ui.value);
+        $('#price_min').val(ui.values[0]);
+        $('#price_max').val(ui.values[1]);
+    }
+});
 $('#price_min').change(function() {
     $( ".price_slider" ).slider("values", [ $('#price_min').val(), $('#price_max').val()] );
 });
@@ -148,6 +222,7 @@ $('#price_max').change(function() {
     $( ".price_slider" ).slider("values", [$('#price_min').val(), $('#price_max').val()] );
 });
 //----------------------^^^^^^^^^^^ Price slider end ^^^^^^^^^^^^---------------------
+
 
 /*----------- catalog_sidebar resize checker ----------------------*/
 
@@ -168,7 +243,15 @@ function check_sidebar() {
 }
 
 //mobile menu
-$('show-mobile-menu-btn').on('click', function () {
+$('.show-mobile-menu-btn').on('click', function () {
     $(this).toggleClass('active');
+    $('.header-menu').toggleClass('active');
+});
+//mobile search
+$('.mobile-search-show').on('click', function () {
+    $(this).toggleClass('active');
+    $(this).find('i').toggleClass('fa-search').toggleClass("fa-times");
+    $('.search-container form').toggleClass('active');
+    // fa-times fa-search
     console.log("ubludkki");
 });
